@@ -6,110 +6,76 @@ use Spatie\SchemaOrg\Generator\Type;
 use Spatie\SchemaOrg\Generator\Property;
 use Symfony\Component\DomCrawler\Crawler;
 use Spatie\SchemaOrg\Generator\TypeCollection;
-
 class RdfaParser
 {
     /** @var \Symfony\Component\DomCrawler\Crawler */
     protected $crawler;
-
     /** @var \Spatie\SchemaOrg\Generator\TypeCollection */
     protected $types;
-
     public function __construct($rdfa)
     {
         $this->crawler = new Crawler($rdfa);
         $this->types = new TypeCollection();
     }
-
-    public function parse(): TypeCollection
+    public function parse()
     {
         $this->parseTypes();
         $this->parseProperties();
-
         return $this->types;
     }
-
     protected function parseTypes()
     {
-        $this->crawler
-            ->filter('[typeof="rdfs:Class"]')
-            ->each(function (Crawler $node) {
-                $type = new Type();
-
-                $type->name = $this->getText($node, '[property="rdfs:label"]');
-
-                if (in_array($type->name, ['', 'DataType', 'Float', 'Integer', 'URL'])) {
-                    return;
-                }
-
-                $type->description = $this->getText($node, '[property="rdfs:comment"]');
-                $type->parent = $this->getText($node, '[property="rdfs:subClassOf"]') ?: 'BaseType';
-
-                if (strpos($type->parent, ':') !== false) {
-                    return;
-                }
-
-                $type->resource = $this->getAttribute($node, 'resource');
-
-                $this->types->push($type);
-            });
+        $this->crawler->filter('[typeof="rdfs:Class"]')->each(function (Crawler $node) {
+            $type = new Type();
+            $type->name = $this->getText($node, '[property="rdfs:label"]');
+            if (in_array($type->name, ['', 'DataType', 'Float', 'Integer', 'URL'])) {
+                return;
+            }
+            $type->description = $this->getText($node, '[property="rdfs:comment"]');
+            $type->parent = $this->getText($node, '[property="rdfs:subClassOf"]') ?: 'BaseType';
+            if (strpos($type->parent, ':') !== false) {
+                return;
+            }
+            $type->resource = $this->getAttribute($node, 'resource');
+            $this->types->push($type);
+        });
     }
-
     protected function parseProperties()
     {
-        $this->crawler
-            ->filter('[typeof="rdf:Property"]')
-            ->each(function (Crawler $node) {
-                $property = new Property();
-
-                $property->name = $this->getText($node, '[property="rdfs:label"]');
-
-                if (empty($property->name)) {
-                    return;
-                }
-
-                $property->description = $this->getText($node, '[property="rdfs:comment"]');
-                $property->resource = $this->getAttribute($node, 'resource');
-
-                $node
-                    ->filter('[property="http://schema.org/domainIncludes"]')
-                    ->each(function (Crawler $domain) use ($property) {
-                        $this->types->addPropertyToType($property, $domain->text());
-                    });
-
-                $node
-                    ->filter('[property="http://schema.org/rangeIncludes"]')
-                    ->each(function (Crawler $range) use ($property) {
-                        $property->addRange(
-                            $this->getTypeFromRange($this->getText($range))
-                        );
-                    });
+        $this->crawler->filter('[typeof="rdf:Property"]')->each(function (Crawler $node) {
+            $property = new Property();
+            $property->name = $this->getText($node, '[property="rdfs:label"]');
+            if (empty($property->name)) {
+                return;
+            }
+            $property->description = $this->getText($node, '[property="rdfs:comment"]');
+            $property->resource = $this->getAttribute($node, 'resource');
+            $node->filter('[property="http://schema.org/domainIncludes"]')->each(function (Crawler $domain) use($property) {
+                $this->types->addPropertyToType($property, $domain->text());
             });
+            $node->filter('[property="http://schema.org/rangeIncludes"]')->each(function (Crawler $range) use($property) {
+                $property->addRange($this->getTypeFromRange($this->getText($range)));
+            });
+        });
     }
-
-    protected function getText(Crawler $node, string $selector = null): string
+    protected function getText(Crawler $node, $selector = null)
     {
         if ($selector) {
             $node = $node->filter($selector)->first();
         }
-
         if ($node->count() === 0) {
             return '';
         }
-
         return $node->text();
     }
-
-    protected function getAttribute(Crawler $node, string $attribute): string
+    protected function getAttribute(Crawler $node, $attribute)
     {
         if ($node->count() === 0) {
             return '';
         }
-
         return $node->attr($attribute);
     }
-
-    protected function getTypeFromRange(string $range)
+    protected function getTypeFromRange($range)
     {
         switch ($range) {
             case 'Boolean':
@@ -121,7 +87,7 @@ class RdfaParser
             case 'Date':
             case 'Time':
             case 'DateTime':
-                return '\DateTimeInterface';
+                return '\\DateTimeInterface';
             case 'Text':
             case 'URL':
                 return 'string';
