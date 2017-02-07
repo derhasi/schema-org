@@ -42,11 +42,11 @@ class BaseTypeTest extends PHPUnit_Framework_TestCase
     {
         $type = new DummyType();
 
-        $type->if(true, function (DummyType $type) {
+        $type->doIf(true, function (DummyType $type) {
             $type->setProperty('foo', 'bar');
         });
 
-        $type->if(false, function (DummyType $type) {
+        $type->doIf(false, function (DummyType $type) {
             $type->setProperty('baz', 'qux');
         });
 

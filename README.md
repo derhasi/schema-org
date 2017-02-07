@@ -87,7 +87,7 @@ $business = ['name' => 'Spatie'];
 
 $localBusiness = Schema::localBusiness()
     ->name($business['name'])
-    ->if(isset($business['email']), function (LocalBusiness $schema) {
+    ->doIf(isset($business['email']), function (LocalBusiness $schema) {
         $schema->email($business['email']);
     });
 ```

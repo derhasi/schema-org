@@ -39,7 +39,7 @@ abstract class BaseType implements Type
      *
      * @return $this
      */
-    public function if($condition, callable $callback)
+    public function doIf($condition, callable $callback)
     {
         if ($condition) {
             $callback($this);
