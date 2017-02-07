@@ -4,82 +4,104 @@ namespace Spatie\SchemaOrg;
 
 use ReflectionClass;
 use Spatie\SchemaOrg\Exceptions\InvalidProperty;
-
 abstract class BaseType implements Type
 {
     /** @var array */
     protected $properties = [];
-
-    public function getContext(): string
+    /**
+     * @return string
+     */
+    public function getContext()
     {
         return 'http://schema.org';
     }
-
-    public function getType(): string
+    /**
+     * @return string
+     */
+    public function getType()
     {
         return (new ReflectionClass($this))->getShortName();
     }
-
-    public function setProperty(string $property, $value)
+    /**
+     * @param string $property
+     * @param $value
+     *
+     * @return $this
+     */
+    public function setProperty($property, $value)
     {
         $this->properties[$property] = $value;
-
         return $this;
     }
-
-    public function if($condition, $callback)
+    /**
+     * @param bool $condition
+     * @param callable $callback
+     *
+     * @return $this
+     */
+    public function doIf($condition, callable $callback)
     {
         if ($condition) {
             $callback($this);
         }
-        
         return $this;
     }
-
-    public function getProperty(string $property, $default = null)
+    /**
+     * @param string $property
+     * @param null $default
+     *
+     * @return mixed|null
+     */
+    public function getProperty($property, $default = null)
     {
-        return $this->properties[$property] ?? $default;
+        return isset($this->properties[$property]) ? $this->properties[$property] : $default;
     }
-
-    public function getProperties(): array
+    /**
+     * @return array
+     */
+    public function getProperties()
     {
         return $this->properties;
     }
-
-    public function toArray(): array
+    /**
+     * {@inheritdoc}
+     */
+    public function toArray()
     {
         $properties = $this->serializeProperty($this->getProperties());
-
-        return [
-            '@context' => $this->getContext(),
-            '@type' => $this->getType(),
-        ] + $properties;
+        return ['@context' => $this->getContext(), '@type' => $this->getType()] + $properties;
     }
-
+    /**
+     * @param $property
+     *
+     * @return array
+     * @throws \Spatie\SchemaOrg\Exceptions\InvalidProperty
+     */
     protected function serializeProperty($property)
     {
         if (is_array($property)) {
             return array_map([$this, 'serializeProperty'], $property);
         }
-        
         if ($property instanceof Type) {
             $property = $property->toArray();
             unset($property['@context']);
         }
-
         if (is_object($property)) {
             throw new InvalidProperty();
         }
-
         return $property;
     }
-
-    public function toScript(): string
+    /**
+     * {@inheritdoc}
+     */
+    public function toScript()
     {
-        return '<script type="application/ld+json">'.json_encode($this->toArray()).'</script>';
+        return '<script type="application/ld+json">' . json_encode($this->toArray()) . '</script>';
     }
-
-    public function __toString(): string
+    /**
+     * {@inheritdoc}
+     */
+    public function __toString()
     {
         return $this->toScript();
     }
