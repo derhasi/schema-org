@@ -15,9 +15,7 @@
             "role": "Developer"
         }
     ],
-    "require": {
-        "php": "^7.0"
-    },
+    "require": {},
     "require-dev": {
         "league/flysystem": "^1.0",
         "phpunit/phpunit": "^5.0",
