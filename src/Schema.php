@@ -7,2942 +7,5882 @@ namespace Spatie\SchemaOrg;
  */
 class Schema
 {
-    public static function thing(): Thing
+    /**
+     * Create Thing.
+     *
+     * return \Spatie\SchemaOrg\Thing
+     */
+    public static function thing()
     {
         return new Thing();
     }
 
-    public static function creativeWork(): CreativeWork
+    /**
+     * Create CreativeWork.
+     *
+     * return \Spatie\SchemaOrg\CreativeWork
+     */
+    public static function creativeWork()
     {
         return new CreativeWork();
     }
 
-    public static function webPage(): WebPage
+    /**
+     * Create WebPage.
+     *
+     * return \Spatie\SchemaOrg\WebPage
+     */
+    public static function webPage()
     {
         return new WebPage();
     }
 
-    public static function aboutPage(): AboutPage
+    /**
+     * Create AboutPage.
+     *
+     * return \Spatie\SchemaOrg\AboutPage
+     */
+    public static function aboutPage()
     {
         return new AboutPage();
     }
 
-    public static function organization(): Organization
+    /**
+     * Create Organization.
+     *
+     * return \Spatie\SchemaOrg\Organization
+     */
+    public static function organization()
     {
         return new Organization();
     }
 
-    public static function place(): Place
+    /**
+     * Create Place.
+     *
+     * return \Spatie\SchemaOrg\Place
+     */
+    public static function place()
     {
         return new Place();
     }
 
-    public static function localBusiness(): LocalBusiness
+    /**
+     * Create LocalBusiness.
+     *
+     * return \Spatie\SchemaOrg\LocalBusiness
+     */
+    public static function localBusiness()
     {
         return new LocalBusiness();
     }
 
-    public static function medicalOrganization(): MedicalOrganization
+    /**
+     * Create MedicalOrganization.
+     *
+     * return \Spatie\SchemaOrg\MedicalOrganization
+     */
+    public static function medicalOrganization()
     {
         return new MedicalOrganization();
     }
 
-    public static function dentist(): Dentist
+    /**
+     * Create Dentist.
+     *
+     * return \Spatie\SchemaOrg\Dentist
+     */
+    public static function dentist()
     {
         return new Dentist();
     }
 
-    public static function hospital(): Hospital
+    /**
+     * Create Hospital.
+     *
+     * return \Spatie\SchemaOrg\Hospital
+     */
+    public static function hospital()
     {
         return new Hospital();
     }
 
-    public static function pharmacy(): Pharmacy
+    /**
+     * Create Pharmacy.
+     *
+     * return \Spatie\SchemaOrg\Pharmacy
+     */
+    public static function pharmacy()
     {
         return new Pharmacy();
     }
 
-    public static function financialService(): FinancialService
+    /**
+     * Create FinancialService.
+     *
+     * return \Spatie\SchemaOrg\FinancialService
+     */
+    public static function financialService()
     {
         return new FinancialService();
     }
 
-    public static function professionalService(): ProfessionalService
+    /**
+     * Create ProfessionalService.
+     *
+     * return \Spatie\SchemaOrg\ProfessionalService
+     */
+    public static function professionalService()
     {
         return new ProfessionalService();
     }
 
-    public static function legalService(): LegalService
+    /**
+     * Create LegalService.
+     *
+     * return \Spatie\SchemaOrg\LegalService
+     */
+    public static function legalService()
     {
         return new LegalService();
     }
 
-    public static function accountingService(): AccountingService
+    /**
+     * Create AccountingService.
+     *
+     * return \Spatie\SchemaOrg\AccountingService
+     */
+    public static function accountingService()
     {
         return new AccountingService();
     }
 
-    public static function administrativeArea(): AdministrativeArea
+    /**
+     * Create AdministrativeArea.
+     *
+     * return \Spatie\SchemaOrg\AdministrativeArea
+     */
+    public static function administrativeArea()
     {
         return new AdministrativeArea();
     }
 
-    public static function entertainmentBusiness(): EntertainmentBusiness
+    /**
+     * Create EntertainmentBusiness.
+     *
+     * return \Spatie\SchemaOrg\EntertainmentBusiness
+     */
+    public static function entertainmentBusiness()
     {
         return new EntertainmentBusiness();
     }
 
-    public static function adultEntertainment(): AdultEntertainment
+    /**
+     * Create AdultEntertainment.
+     *
+     * return \Spatie\SchemaOrg\AdultEntertainment
+     */
+    public static function adultEntertainment()
     {
         return new AdultEntertainment();
     }
 
-    public static function intangible(): Intangible
+    /**
+     * Create Intangible.
+     *
+     * return \Spatie\SchemaOrg\Intangible
+     */
+    public static function intangible()
     {
         return new Intangible();
     }
 
-    public static function offer(): Offer
+    /**
+     * Create Offer.
+     *
+     * return \Spatie\SchemaOrg\Offer
+     */
+    public static function offer()
     {
         return new Offer();
     }
 
-    public static function aggregateOffer(): AggregateOffer
+    /**
+     * Create AggregateOffer.
+     *
+     * return \Spatie\SchemaOrg\AggregateOffer
+     */
+    public static function aggregateOffer()
     {
         return new AggregateOffer();
     }
 
-    public static function rating(): Rating
+    /**
+     * Create Rating.
+     *
+     * return \Spatie\SchemaOrg\Rating
+     */
+    public static function rating()
     {
         return new Rating();
     }
 
-    public static function aggregateRating(): AggregateRating
+    /**
+     * Create AggregateRating.
+     *
+     * return \Spatie\SchemaOrg\AggregateRating
+     */
+    public static function aggregateRating()
     {
         return new AggregateRating();
     }
 
-    public static function civicStructure(): CivicStructure
+    /**
+     * Create CivicStructure.
+     *
+     * return \Spatie\SchemaOrg\CivicStructure
+     */
+    public static function civicStructure()
     {
         return new CivicStructure();
     }
 
-    public static function airport(): Airport
+    /**
+     * Create Airport.
+     *
+     * return \Spatie\SchemaOrg\Airport
+     */
+    public static function airport()
     {
         return new Airport();
     }
 
-    public static function amusementPark(): AmusementPark
+    /**
+     * Create AmusementPark.
+     *
+     * return \Spatie\SchemaOrg\AmusementPark
+     */
+    public static function amusementPark()
     {
         return new AmusementPark();
     }
 
-    public static function animalShelter(): AnimalShelter
+    /**
+     * Create AnimalShelter.
+     *
+     * return \Spatie\SchemaOrg\AnimalShelter
+     */
+    public static function animalShelter()
     {
         return new AnimalShelter();
     }
 
-    public static function residence(): Residence
+    /**
+     * Create Residence.
+     *
+     * return \Spatie\SchemaOrg\Residence
+     */
+    public static function residence()
     {
         return new Residence();
     }
 
-    public static function apartmentComplex(): ApartmentComplex
+    /**
+     * Create ApartmentComplex.
+     *
+     * return \Spatie\SchemaOrg\ApartmentComplex
+     */
+    public static function apartmentComplex()
     {
         return new ApartmentComplex();
     }
 
-    public static function aquarium(): Aquarium
+    /**
+     * Create Aquarium.
+     *
+     * return \Spatie\SchemaOrg\Aquarium
+     */
+    public static function aquarium()
     {
         return new Aquarium();
     }
 
-    public static function artGallery(): ArtGallery
+    /**
+     * Create ArtGallery.
+     *
+     * return \Spatie\SchemaOrg\ArtGallery
+     */
+    public static function artGallery()
     {
         return new ArtGallery();
     }
 
-    public static function article(): Article
+    /**
+     * Create Article.
+     *
+     * return \Spatie\SchemaOrg\Article
+     */
+    public static function article()
     {
         return new Article();
     }
 
-    public static function attorney(): Attorney
+    /**
+     * Create Attorney.
+     *
+     * return \Spatie\SchemaOrg\Attorney
+     */
+    public static function attorney()
     {
         return new Attorney();
     }
 
-    public static function audience(): Audience
+    /**
+     * Create Audience.
+     *
+     * return \Spatie\SchemaOrg\Audience
+     */
+    public static function audience()
     {
         return new Audience();
     }
 
-    public static function mediaObject(): MediaObject
+    /**
+     * Create MediaObject.
+     *
+     * return \Spatie\SchemaOrg\MediaObject
+     */
+    public static function mediaObject()
     {
         return new MediaObject();
     }
 
-    public static function audioObject(): AudioObject
+    /**
+     * Create AudioObject.
+     *
+     * return \Spatie\SchemaOrg\AudioObject
+     */
+    public static function audioObject()
     {
         return new AudioObject();
     }
 
-    public static function automotiveBusiness(): AutomotiveBusiness
+    /**
+     * Create AutomotiveBusiness.
+     *
+     * return \Spatie\SchemaOrg\AutomotiveBusiness
+     */
+    public static function automotiveBusiness()
     {
         return new AutomotiveBusiness();
     }
 
-    public static function autoBodyShop(): AutoBodyShop
+    /**
+     * Create AutoBodyShop.
+     *
+     * return \Spatie\SchemaOrg\AutoBodyShop
+     */
+    public static function autoBodyShop()
     {
         return new AutoBodyShop();
     }
 
-    public static function autoDealer(): AutoDealer
+    /**
+     * Create AutoDealer.
+     *
+     * return \Spatie\SchemaOrg\AutoDealer
+     */
+    public static function autoDealer()
     {
         return new AutoDealer();
     }
 
-    public static function store(): Store
+    /**
+     * Create Store.
+     *
+     * return \Spatie\SchemaOrg\Store
+     */
+    public static function store()
     {
         return new Store();
     }
 
-    public static function autoPartsStore(): AutoPartsStore
+    /**
+     * Create AutoPartsStore.
+     *
+     * return \Spatie\SchemaOrg\AutoPartsStore
+     */
+    public static function autoPartsStore()
     {
         return new AutoPartsStore();
     }
 
-    public static function autoRental(): AutoRental
+    /**
+     * Create AutoRental.
+     *
+     * return \Spatie\SchemaOrg\AutoRental
+     */
+    public static function autoRental()
     {
         return new AutoRental();
     }
 
-    public static function autoRepair(): AutoRepair
+    /**
+     * Create AutoRepair.
+     *
+     * return \Spatie\SchemaOrg\AutoRepair
+     */
+    public static function autoRepair()
     {
         return new AutoRepair();
     }
 
-    public static function autoWash(): AutoWash
+    /**
+     * Create AutoWash.
+     *
+     * return \Spatie\SchemaOrg\AutoWash
+     */
+    public static function autoWash()
     {
         return new AutoWash();
     }
 
-    public static function automatedTeller(): AutomatedTeller
+    /**
+     * Create AutomatedTeller.
+     *
+     * return \Spatie\SchemaOrg\AutomatedTeller
+     */
+    public static function automatedTeller()
     {
         return new AutomatedTeller();
     }
 
-    public static function foodEstablishment(): FoodEstablishment
+    /**
+     * Create FoodEstablishment.
+     *
+     * return \Spatie\SchemaOrg\FoodEstablishment
+     */
+    public static function foodEstablishment()
     {
         return new FoodEstablishment();
     }
 
-    public static function bakery(): Bakery
+    /**
+     * Create Bakery.
+     *
+     * return \Spatie\SchemaOrg\Bakery
+     */
+    public static function bakery()
     {
         return new Bakery();
     }
 
-    public static function bankOrCreditUnion(): BankOrCreditUnion
+    /**
+     * Create BankOrCreditUnion.
+     *
+     * return \Spatie\SchemaOrg\BankOrCreditUnion
+     */
+    public static function bankOrCreditUnion()
     {
         return new BankOrCreditUnion();
     }
 
-    public static function barcode(): Barcode
+    /**
+     * Create Barcode.
+     *
+     * return \Spatie\SchemaOrg\Barcode
+     */
+    public static function barcode()
     {
         return new Barcode();
     }
 
-    public static function barOrPub(): BarOrPub
+    /**
+     * Create BarOrPub.
+     *
+     * return \Spatie\SchemaOrg\BarOrPub
+     */
+    public static function barOrPub()
     {
         return new BarOrPub();
     }
 
-    public static function beach(): Beach
+    /**
+     * Create Beach.
+     *
+     * return \Spatie\SchemaOrg\Beach
+     */
+    public static function beach()
     {
         return new Beach();
     }
 
-    public static function healthAndBeautyBusiness(): HealthAndBeautyBusiness
+    /**
+     * Create HealthAndBeautyBusiness.
+     *
+     * return \Spatie\SchemaOrg\HealthAndBeautyBusiness
+     */
+    public static function healthAndBeautyBusiness()
     {
         return new HealthAndBeautyBusiness();
     }
 
-    public static function beautySalon(): BeautySalon
+    /**
+     * Create BeautySalon.
+     *
+     * return \Spatie\SchemaOrg\BeautySalon
+     */
+    public static function beautySalon()
     {
         return new BeautySalon();
     }
 
-    public static function lodgingBusiness(): LodgingBusiness
+    /**
+     * Create LodgingBusiness.
+     *
+     * return \Spatie\SchemaOrg\LodgingBusiness
+     */
+    public static function lodgingBusiness()
     {
         return new LodgingBusiness();
     }
 
-    public static function bedAndBreakfast(): BedAndBreakfast
+    /**
+     * Create BedAndBreakfast.
+     *
+     * return \Spatie\SchemaOrg\BedAndBreakfast
+     */
+    public static function bedAndBreakfast()
     {
         return new BedAndBreakfast();
     }
 
-    public static function bikeStore(): BikeStore
+    /**
+     * Create BikeStore.
+     *
+     * return \Spatie\SchemaOrg\BikeStore
+     */
+    public static function bikeStore()
     {
         return new BikeStore();
     }
 
-    public static function blog(): Blog
+    /**
+     * Create Blog.
+     *
+     * return \Spatie\SchemaOrg\Blog
+     */
+    public static function blog()
     {
         return new Blog();
     }
 
-    public static function blogPosting(): BlogPosting
+    /**
+     * Create BlogPosting.
+     *
+     * return \Spatie\SchemaOrg\BlogPosting
+     */
+    public static function blogPosting()
     {
         return new BlogPosting();
     }
 
-    public static function landform(): Landform
+    /**
+     * Create Landform.
+     *
+     * return \Spatie\SchemaOrg\Landform
+     */
+    public static function landform()
     {
         return new Landform();
     }
 
-    public static function bodyOfWater(): BodyOfWater
+    /**
+     * Create BodyOfWater.
+     *
+     * return \Spatie\SchemaOrg\BodyOfWater
+     */
+    public static function bodyOfWater()
     {
         return new BodyOfWater();
     }
 
-    public static function book(): Book
+    /**
+     * Create Book.
+     *
+     * return \Spatie\SchemaOrg\Book
+     */
+    public static function book()
     {
         return new Book();
     }
 
-    public static function bookFormatType(): BookFormatType
+    /**
+     * Create BookFormatType.
+     *
+     * return \Spatie\SchemaOrg\BookFormatType
+     */
+    public static function bookFormatType()
     {
         return new BookFormatType();
     }
 
-    public static function bookStore(): BookStore
+    /**
+     * Create BookStore.
+     *
+     * return \Spatie\SchemaOrg\BookStore
+     */
+    public static function bookStore()
     {
         return new BookStore();
     }
 
-    public static function sportsActivityLocation(): SportsActivityLocation
+    /**
+     * Create SportsActivityLocation.
+     *
+     * return \Spatie\SchemaOrg\SportsActivityLocation
+     */
+    public static function sportsActivityLocation()
     {
         return new SportsActivityLocation();
     }
 
-    public static function bowlingAlley(): BowlingAlley
+    /**
+     * Create BowlingAlley.
+     *
+     * return \Spatie\SchemaOrg\BowlingAlley
+     */
+    public static function bowlingAlley()
     {
         return new BowlingAlley();
     }
 
-    public static function brewery(): Brewery
+    /**
+     * Create Brewery.
+     *
+     * return \Spatie\SchemaOrg\Brewery
+     */
+    public static function brewery()
     {
         return new Brewery();
     }
 
-    public static function placeOfWorship(): PlaceOfWorship
+    /**
+     * Create PlaceOfWorship.
+     *
+     * return \Spatie\SchemaOrg\PlaceOfWorship
+     */
+    public static function placeOfWorship()
     {
         return new PlaceOfWorship();
     }
 
-    public static function buddhistTemple(): BuddhistTemple
+    /**
+     * Create BuddhistTemple.
+     *
+     * return \Spatie\SchemaOrg\BuddhistTemple
+     */
+    public static function buddhistTemple()
     {
         return new BuddhistTemple();
     }
 
-    public static function busStation(): BusStation
+    /**
+     * Create BusStation.
+     *
+     * return \Spatie\SchemaOrg\BusStation
+     */
+    public static function busStation()
     {
         return new BusStation();
     }
 
-    public static function busStop(): BusStop
+    /**
+     * Create BusStop.
+     *
+     * return \Spatie\SchemaOrg\BusStop
+     */
+    public static function busStop()
     {
         return new BusStop();
     }
 
-    public static function event(): Event
+    /**
+     * Create Event.
+     *
+     * return \Spatie\SchemaOrg\Event
+     */
+    public static function event()
     {
         return new Event();
     }
 
-    public static function businessEvent(): BusinessEvent
+    /**
+     * Create BusinessEvent.
+     *
+     * return \Spatie\SchemaOrg\BusinessEvent
+     */
+    public static function businessEvent()
     {
         return new BusinessEvent();
     }
 
-    public static function cafeOrCoffeeShop(): CafeOrCoffeeShop
+    /**
+     * Create CafeOrCoffeeShop.
+     *
+     * return \Spatie\SchemaOrg\CafeOrCoffeeShop
+     */
+    public static function cafeOrCoffeeShop()
     {
         return new CafeOrCoffeeShop();
     }
 
-    public static function campground(): Campground
+    /**
+     * Create Campground.
+     *
+     * return \Spatie\SchemaOrg\Campground
+     */
+    public static function campground()
     {
         return new Campground();
     }
 
-    public static function canal(): Canal
+    /**
+     * Create Canal.
+     *
+     * return \Spatie\SchemaOrg\Canal
+     */
+    public static function canal()
     {
         return new Canal();
     }
 
-    public static function casino(): Casino
+    /**
+     * Create Casino.
+     *
+     * return \Spatie\SchemaOrg\Casino
+     */
+    public static function casino()
     {
         return new Casino();
     }
 
-    public static function catholicChurch(): CatholicChurch
+    /**
+     * Create CatholicChurch.
+     *
+     * return \Spatie\SchemaOrg\CatholicChurch
+     */
+    public static function catholicChurch()
     {
         return new CatholicChurch();
     }
 
-    public static function cemetery(): Cemetery
+    /**
+     * Create Cemetery.
+     *
+     * return \Spatie\SchemaOrg\Cemetery
+     */
+    public static function cemetery()
     {
         return new Cemetery();
     }
 
-    public static function checkoutPage(): CheckoutPage
+    /**
+     * Create CheckoutPage.
+     *
+     * return \Spatie\SchemaOrg\CheckoutPage
+     */
+    public static function checkoutPage()
     {
         return new CheckoutPage();
     }
 
-    public static function childCare(): ChildCare
+    /**
+     * Create ChildCare.
+     *
+     * return \Spatie\SchemaOrg\ChildCare
+     */
+    public static function childCare()
     {
         return new ChildCare();
     }
 
-    public static function childrensEvent(): ChildrensEvent
+    /**
+     * Create ChildrensEvent.
+     *
+     * return \Spatie\SchemaOrg\ChildrensEvent
+     */
+    public static function childrensEvent()
     {
         return new ChildrensEvent();
     }
 
-    public static function church(): Church
+    /**
+     * Create Church.
+     *
+     * return \Spatie\SchemaOrg\Church
+     */
+    public static function church()
     {
         return new Church();
     }
 
-    public static function city(): City
+    /**
+     * Create City.
+     *
+     * return \Spatie\SchemaOrg\City
+     */
+    public static function city()
     {
         return new City();
     }
 
-    public static function governmentBuilding(): GovernmentBuilding
+    /**
+     * Create GovernmentBuilding.
+     *
+     * return \Spatie\SchemaOrg\GovernmentBuilding
+     */
+    public static function governmentBuilding()
     {
         return new GovernmentBuilding();
     }
 
-    public static function cityHall(): CityHall
+    /**
+     * Create CityHall.
+     *
+     * return \Spatie\SchemaOrg\CityHall
+     */
+    public static function cityHall()
     {
         return new CityHall();
     }
 
-    public static function clothingStore(): ClothingStore
+    /**
+     * Create ClothingStore.
+     *
+     * return \Spatie\SchemaOrg\ClothingStore
+     */
+    public static function clothingStore()
     {
         return new ClothingStore();
     }
 
-    public static function collectionPage(): CollectionPage
+    /**
+     * Create CollectionPage.
+     *
+     * return \Spatie\SchemaOrg\CollectionPage
+     */
+    public static function collectionPage()
     {
         return new CollectionPage();
     }
 
-    public static function educationalOrganization(): EducationalOrganization
+    /**
+     * Create EducationalOrganization.
+     *
+     * return \Spatie\SchemaOrg\EducationalOrganization
+     */
+    public static function educationalOrganization()
     {
         return new EducationalOrganization();
     }
 
-    public static function collegeOrUniversity(): CollegeOrUniversity
+    /**
+     * Create CollegeOrUniversity.
+     *
+     * return \Spatie\SchemaOrg\CollegeOrUniversity
+     */
+    public static function collegeOrUniversity()
     {
         return new CollegeOrUniversity();
     }
 
-    public static function comedyClub(): ComedyClub
+    /**
+     * Create ComedyClub.
+     *
+     * return \Spatie\SchemaOrg\ComedyClub
+     */
+    public static function comedyClub()
     {
         return new ComedyClub();
     }
 
-    public static function comedyEvent(): ComedyEvent
+    /**
+     * Create ComedyEvent.
+     *
+     * return \Spatie\SchemaOrg\ComedyEvent
+     */
+    public static function comedyEvent()
     {
         return new ComedyEvent();
     }
 
-    public static function comment(): Comment
+    /**
+     * Create Comment.
+     *
+     * return \Spatie\SchemaOrg\Comment
+     */
+    public static function comment()
     {
         return new Comment();
     }
 
-    public static function computerStore(): ComputerStore
+    /**
+     * Create ComputerStore.
+     *
+     * return \Spatie\SchemaOrg\ComputerStore
+     */
+    public static function computerStore()
     {
         return new ComputerStore();
     }
 
-    public static function contactPage(): ContactPage
+    /**
+     * Create ContactPage.
+     *
+     * return \Spatie\SchemaOrg\ContactPage
+     */
+    public static function contactPage()
     {
         return new ContactPage();
     }
 
-    public static function structuredValue(): StructuredValue
+    /**
+     * Create StructuredValue.
+     *
+     * return \Spatie\SchemaOrg\StructuredValue
+     */
+    public static function structuredValue()
     {
         return new StructuredValue();
     }
 
-    public static function contactPoint(): ContactPoint
+    /**
+     * Create ContactPoint.
+     *
+     * return \Spatie\SchemaOrg\ContactPoint
+     */
+    public static function contactPoint()
     {
         return new ContactPoint();
     }
 
-    public static function continent(): Continent
+    /**
+     * Create Continent.
+     *
+     * return \Spatie\SchemaOrg\Continent
+     */
+    public static function continent()
     {
         return new Continent();
     }
 
-    public static function convenienceStore(): ConvenienceStore
+    /**
+     * Create ConvenienceStore.
+     *
+     * return \Spatie\SchemaOrg\ConvenienceStore
+     */
+    public static function convenienceStore()
     {
         return new ConvenienceStore();
     }
 
-    public static function corporation(): Corporation
+    /**
+     * Create Corporation.
+     *
+     * return \Spatie\SchemaOrg\Corporation
+     */
+    public static function corporation()
     {
         return new Corporation();
     }
 
-    public static function country(): Country
+    /**
+     * Create Country.
+     *
+     * return \Spatie\SchemaOrg\Country
+     */
+    public static function country()
     {
         return new Country();
     }
 
-    public static function courthouse(): Courthouse
+    /**
+     * Create Courthouse.
+     *
+     * return \Spatie\SchemaOrg\Courthouse
+     */
+    public static function courthouse()
     {
         return new Courthouse();
     }
 
-    public static function crematorium(): Crematorium
+    /**
+     * Create Crematorium.
+     *
+     * return \Spatie\SchemaOrg\Crematorium
+     */
+    public static function crematorium()
     {
         return new Crematorium();
     }
 
-    public static function danceEvent(): DanceEvent
+    /**
+     * Create DanceEvent.
+     *
+     * return \Spatie\SchemaOrg\DanceEvent
+     */
+    public static function danceEvent()
     {
         return new DanceEvent();
     }
 
-    public static function performingGroup(): PerformingGroup
+    /**
+     * Create PerformingGroup.
+     *
+     * return \Spatie\SchemaOrg\PerformingGroup
+     */
+    public static function performingGroup()
     {
         return new PerformingGroup();
     }
 
-    public static function danceGroup(): DanceGroup
+    /**
+     * Create DanceGroup.
+     *
+     * return \Spatie\SchemaOrg\DanceGroup
+     */
+    public static function danceGroup()
     {
         return new DanceGroup();
     }
 
-    public static function daySpa(): DaySpa
+    /**
+     * Create DaySpa.
+     *
+     * return \Spatie\SchemaOrg\DaySpa
+     */
+    public static function daySpa()
     {
         return new DaySpa();
     }
 
-    public static function defenceEstablishment(): DefenceEstablishment
+    /**
+     * Create DefenceEstablishment.
+     *
+     * return \Spatie\SchemaOrg\DefenceEstablishment
+     */
+    public static function defenceEstablishment()
     {
         return new DefenceEstablishment();
     }
 
-    public static function departmentStore(): DepartmentStore
+    /**
+     * Create DepartmentStore.
+     *
+     * return \Spatie\SchemaOrg\DepartmentStore
+     */
+    public static function departmentStore()
     {
         return new DepartmentStore();
     }
 
-    public static function quantity(): Quantity
+    /**
+     * Create Quantity.
+     *
+     * return \Spatie\SchemaOrg\Quantity
+     */
+    public static function quantity()
     {
         return new Quantity();
     }
 
-    public static function distance(): Distance
+    /**
+     * Create Distance.
+     *
+     * return \Spatie\SchemaOrg\Distance
+     */
+    public static function distance()
     {
         return new Distance();
     }
 
-    public static function dryCleaningOrLaundry(): DryCleaningOrLaundry
+    /**
+     * Create DryCleaningOrLaundry.
+     *
+     * return \Spatie\SchemaOrg\DryCleaningOrLaundry
+     */
+    public static function dryCleaningOrLaundry()
     {
         return new DryCleaningOrLaundry();
     }
 
-    public static function duration(): Duration
+    /**
+     * Create Duration.
+     *
+     * return \Spatie\SchemaOrg\Duration
+     */
+    public static function duration()
     {
         return new Duration();
     }
 
-    public static function educationEvent(): EducationEvent
+    /**
+     * Create EducationEvent.
+     *
+     * return \Spatie\SchemaOrg\EducationEvent
+     */
+    public static function educationEvent()
     {
         return new EducationEvent();
     }
 
-    public static function homeAndConstructionBusiness(): HomeAndConstructionBusiness
+    /**
+     * Create HomeAndConstructionBusiness.
+     *
+     * return \Spatie\SchemaOrg\HomeAndConstructionBusiness
+     */
+    public static function homeAndConstructionBusiness()
     {
         return new HomeAndConstructionBusiness();
     }
 
-    public static function electrician(): Electrician
+    /**
+     * Create Electrician.
+     *
+     * return \Spatie\SchemaOrg\Electrician
+     */
+    public static function electrician()
     {
         return new Electrician();
     }
 
-    public static function electronicsStore(): ElectronicsStore
+    /**
+     * Create ElectronicsStore.
+     *
+     * return \Spatie\SchemaOrg\ElectronicsStore
+     */
+    public static function electronicsStore()
     {
         return new ElectronicsStore();
     }
 
-    public static function elementarySchool(): ElementarySchool
+    /**
+     * Create ElementarySchool.
+     *
+     * return \Spatie\SchemaOrg\ElementarySchool
+     */
+    public static function elementarySchool()
     {
         return new ElementarySchool();
     }
 
-    public static function embassy(): Embassy
+    /**
+     * Create Embassy.
+     *
+     * return \Spatie\SchemaOrg\Embassy
+     */
+    public static function embassy()
     {
         return new Embassy();
     }
 
-    public static function emergencyService(): EmergencyService
+    /**
+     * Create EmergencyService.
+     *
+     * return \Spatie\SchemaOrg\EmergencyService
+     */
+    public static function emergencyService()
     {
         return new EmergencyService();
     }
 
-    public static function employmentAgency(): EmploymentAgency
+    /**
+     * Create EmploymentAgency.
+     *
+     * return \Spatie\SchemaOrg\EmploymentAgency
+     */
+    public static function employmentAgency()
     {
         return new EmploymentAgency();
     }
 
-    public static function energy(): Energy
+    /**
+     * Create Energy.
+     *
+     * return \Spatie\SchemaOrg\Energy
+     */
+    public static function energy()
     {
         return new Energy();
     }
 
-    public static function eventVenue(): EventVenue
+    /**
+     * Create EventVenue.
+     *
+     * return \Spatie\SchemaOrg\EventVenue
+     */
+    public static function eventVenue()
     {
         return new EventVenue();
     }
 
-    public static function exerciseGym(): ExerciseGym
+    /**
+     * Create ExerciseGym.
+     *
+     * return \Spatie\SchemaOrg\ExerciseGym
+     */
+    public static function exerciseGym()
     {
         return new ExerciseGym();
     }
 
-    public static function fastFoodRestaurant(): FastFoodRestaurant
+    /**
+     * Create FastFoodRestaurant.
+     *
+     * return \Spatie\SchemaOrg\FastFoodRestaurant
+     */
+    public static function fastFoodRestaurant()
     {
         return new FastFoodRestaurant();
     }
 
-    public static function festival(): Festival
+    /**
+     * Create Festival.
+     *
+     * return \Spatie\SchemaOrg\Festival
+     */
+    public static function festival()
     {
         return new Festival();
     }
 
-    public static function fireStation(): FireStation
+    /**
+     * Create FireStation.
+     *
+     * return \Spatie\SchemaOrg\FireStation
+     */
+    public static function fireStation()
     {
         return new FireStation();
     }
 
-    public static function florist(): Florist
+    /**
+     * Create Florist.
+     *
+     * return \Spatie\SchemaOrg\Florist
+     */
+    public static function florist()
     {
         return new Florist();
     }
 
-    public static function foodEvent(): FoodEvent
+    /**
+     * Create FoodEvent.
+     *
+     * return \Spatie\SchemaOrg\FoodEvent
+     */
+    public static function foodEvent()
     {
         return new FoodEvent();
     }
 
-    public static function furnitureStore(): FurnitureStore
+    /**
+     * Create FurnitureStore.
+     *
+     * return \Spatie\SchemaOrg\FurnitureStore
+     */
+    public static function furnitureStore()
     {
         return new FurnitureStore();
     }
 
-    public static function gardenStore(): GardenStore
+    /**
+     * Create GardenStore.
+     *
+     * return \Spatie\SchemaOrg\GardenStore
+     */
+    public static function gardenStore()
     {
         return new GardenStore();
     }
 
-    public static function gasStation(): GasStation
+    /**
+     * Create GasStation.
+     *
+     * return \Spatie\SchemaOrg\GasStation
+     */
+    public static function gasStation()
     {
         return new GasStation();
     }
 
-    public static function gatedResidenceCommunity(): GatedResidenceCommunity
+    /**
+     * Create GatedResidenceCommunity.
+     *
+     * return \Spatie\SchemaOrg\GatedResidenceCommunity
+     */
+    public static function gatedResidenceCommunity()
     {
         return new GatedResidenceCommunity();
     }
 
-    public static function generalContractor(): GeneralContractor
+    /**
+     * Create GeneralContractor.
+     *
+     * return \Spatie\SchemaOrg\GeneralContractor
+     */
+    public static function generalContractor()
     {
         return new GeneralContractor();
     }
 
-    public static function geoCoordinates(): GeoCoordinates
+    /**
+     * Create GeoCoordinates.
+     *
+     * return \Spatie\SchemaOrg\GeoCoordinates
+     */
+    public static function geoCoordinates()
     {
         return new GeoCoordinates();
     }
 
-    public static function geoShape(): GeoShape
+    /**
+     * Create GeoShape.
+     *
+     * return \Spatie\SchemaOrg\GeoShape
+     */
+    public static function geoShape()
     {
         return new GeoShape();
     }
 
-    public static function geoCircle(): GeoCircle
+    /**
+     * Create GeoCircle.
+     *
+     * return \Spatie\SchemaOrg\GeoCircle
+     */
+    public static function geoCircle()
     {
         return new GeoCircle();
     }
 
-    public static function golfCourse(): GolfCourse
+    /**
+     * Create GolfCourse.
+     *
+     * return \Spatie\SchemaOrg\GolfCourse
+     */
+    public static function golfCourse()
     {
         return new GolfCourse();
     }
 
-    public static function governmentOffice(): GovernmentOffice
+    /**
+     * Create GovernmentOffice.
+     *
+     * return \Spatie\SchemaOrg\GovernmentOffice
+     */
+    public static function governmentOffice()
     {
         return new GovernmentOffice();
     }
 
-    public static function governmentOrganization(): GovernmentOrganization
+    /**
+     * Create GovernmentOrganization.
+     *
+     * return \Spatie\SchemaOrg\GovernmentOrganization
+     */
+    public static function governmentOrganization()
     {
         return new GovernmentOrganization();
     }
 
-    public static function groceryStore(): GroceryStore
+    /**
+     * Create GroceryStore.
+     *
+     * return \Spatie\SchemaOrg\GroceryStore
+     */
+    public static function groceryStore()
     {
         return new GroceryStore();
     }
 
-    public static function hVACBusiness(): HVACBusiness
+    /**
+     * Create HVACBusiness.
+     *
+     * return \Spatie\SchemaOrg\HVACBusiness
+     */
+    public static function hVACBusiness()
     {
         return new HVACBusiness();
     }
 
-    public static function hairSalon(): HairSalon
+    /**
+     * Create HairSalon.
+     *
+     * return \Spatie\SchemaOrg\HairSalon
+     */
+    public static function hairSalon()
     {
         return new HairSalon();
     }
 
-    public static function hardwareStore(): HardwareStore
+    /**
+     * Create HardwareStore.
+     *
+     * return \Spatie\SchemaOrg\HardwareStore
+     */
+    public static function hardwareStore()
     {
         return new HardwareStore();
     }
 
-    public static function healthClub(): HealthClub
+    /**
+     * Create HealthClub.
+     *
+     * return \Spatie\SchemaOrg\HealthClub
+     */
+    public static function healthClub()
     {
         return new HealthClub();
     }
 
-    public static function highSchool(): HighSchool
+    /**
+     * Create HighSchool.
+     *
+     * return \Spatie\SchemaOrg\HighSchool
+     */
+    public static function highSchool()
     {
         return new HighSchool();
     }
 
-    public static function hinduTemple(): HinduTemple
+    /**
+     * Create HinduTemple.
+     *
+     * return \Spatie\SchemaOrg\HinduTemple
+     */
+    public static function hinduTemple()
     {
         return new HinduTemple();
     }
 
-    public static function hobbyShop(): HobbyShop
+    /**
+     * Create HobbyShop.
+     *
+     * return \Spatie\SchemaOrg\HobbyShop
+     */
+    public static function hobbyShop()
     {
         return new HobbyShop();
     }
 
-    public static function homeGoodsStore(): HomeGoodsStore
+    /**
+     * Create HomeGoodsStore.
+     *
+     * return \Spatie\SchemaOrg\HomeGoodsStore
+     */
+    public static function homeGoodsStore()
     {
         return new HomeGoodsStore();
     }
 
-    public static function hostel(): Hostel
+    /**
+     * Create Hostel.
+     *
+     * return \Spatie\SchemaOrg\Hostel
+     */
+    public static function hostel()
     {
         return new Hostel();
     }
 
-    public static function hotel(): Hotel
+    /**
+     * Create Hotel.
+     *
+     * return \Spatie\SchemaOrg\Hotel
+     */
+    public static function hotel()
     {
         return new Hotel();
     }
 
-    public static function housePainter(): HousePainter
+    /**
+     * Create HousePainter.
+     *
+     * return \Spatie\SchemaOrg\HousePainter
+     */
+    public static function housePainter()
     {
         return new HousePainter();
     }
 
-    public static function iceCreamShop(): IceCreamShop
+    /**
+     * Create IceCreamShop.
+     *
+     * return \Spatie\SchemaOrg\IceCreamShop
+     */
+    public static function iceCreamShop()
     {
         return new IceCreamShop();
     }
 
-    public static function imageGallery(): ImageGallery
+    /**
+     * Create ImageGallery.
+     *
+     * return \Spatie\SchemaOrg\ImageGallery
+     */
+    public static function imageGallery()
     {
         return new ImageGallery();
     }
 
-    public static function imageObject(): ImageObject
+    /**
+     * Create ImageObject.
+     *
+     * return \Spatie\SchemaOrg\ImageObject
+     */
+    public static function imageObject()
     {
         return new ImageObject();
     }
 
-    public static function insuranceAgency(): InsuranceAgency
+    /**
+     * Create InsuranceAgency.
+     *
+     * return \Spatie\SchemaOrg\InsuranceAgency
+     */
+    public static function insuranceAgency()
     {
         return new InsuranceAgency();
     }
 
-    public static function internetCafe(): InternetCafe
+    /**
+     * Create InternetCafe.
+     *
+     * return \Spatie\SchemaOrg\InternetCafe
+     */
+    public static function internetCafe()
     {
         return new InternetCafe();
     }
 
-    public static function itemAvailability(): ItemAvailability
+    /**
+     * Create ItemAvailability.
+     *
+     * return \Spatie\SchemaOrg\ItemAvailability
+     */
+    public static function itemAvailability()
     {
         return new ItemAvailability();
     }
 
-    public static function itemList(): ItemList
+    /**
+     * Create ItemList.
+     *
+     * return \Spatie\SchemaOrg\ItemList
+     */
+    public static function itemList()
     {
         return new ItemList();
     }
 
-    public static function breadcrumbList(): BreadcrumbList
+    /**
+     * Create BreadcrumbList.
+     *
+     * return \Spatie\SchemaOrg\BreadcrumbList
+     */
+    public static function breadcrumbList()
     {
         return new BreadcrumbList();
     }
 
-    public static function offerCatalog(): OfferCatalog
+    /**
+     * Create OfferCatalog.
+     *
+     * return \Spatie\SchemaOrg\OfferCatalog
+     */
+    public static function offerCatalog()
     {
         return new OfferCatalog();
     }
 
-    public static function itemPage(): ItemPage
+    /**
+     * Create ItemPage.
+     *
+     * return \Spatie\SchemaOrg\ItemPage
+     */
+    public static function itemPage()
     {
         return new ItemPage();
     }
 
-    public static function jewelryStore(): JewelryStore
+    /**
+     * Create JewelryStore.
+     *
+     * return \Spatie\SchemaOrg\JewelryStore
+     */
+    public static function jewelryStore()
     {
         return new JewelryStore();
     }
 
-    public static function jobPosting(): JobPosting
+    /**
+     * Create JobPosting.
+     *
+     * return \Spatie\SchemaOrg\JobPosting
+     */
+    public static function jobPosting()
     {
         return new JobPosting();
     }
 
-    public static function lakeBodyOfWater(): LakeBodyOfWater
+    /**
+     * Create LakeBodyOfWater.
+     *
+     * return \Spatie\SchemaOrg\LakeBodyOfWater
+     */
+    public static function lakeBodyOfWater()
     {
         return new LakeBodyOfWater();
     }
 
-    public static function landmarksOrHistoricalBuildings(): LandmarksOrHistoricalBuildings
+    /**
+     * Create LandmarksOrHistoricalBuildings.
+     *
+     * return \Spatie\SchemaOrg\LandmarksOrHistoricalBuildings
+     */
+    public static function landmarksOrHistoricalBuildings()
     {
         return new LandmarksOrHistoricalBuildings();
     }
 
-    public static function language(): Language
+    /**
+     * Create Language.
+     *
+     * return \Spatie\SchemaOrg\Language
+     */
+    public static function language()
     {
         return new Language();
     }
 
-    public static function computerLanguage(): ComputerLanguage
+    /**
+     * Create ComputerLanguage.
+     *
+     * return \Spatie\SchemaOrg\ComputerLanguage
+     */
+    public static function computerLanguage()
     {
         return new ComputerLanguage();
     }
 
-    public static function legislativeBuilding(): LegislativeBuilding
+    /**
+     * Create LegislativeBuilding.
+     *
+     * return \Spatie\SchemaOrg\LegislativeBuilding
+     */
+    public static function legislativeBuilding()
     {
         return new LegislativeBuilding();
     }
 
-    public static function library(): Library
+    /**
+     * Create Library.
+     *
+     * return \Spatie\SchemaOrg\Library
+     */
+    public static function library()
     {
         return new Library();
     }
 
-    public static function liquorStore(): LiquorStore
+    /**
+     * Create LiquorStore.
+     *
+     * return \Spatie\SchemaOrg\LiquorStore
+     */
+    public static function liquorStore()
     {
         return new LiquorStore();
     }
 
-    public static function literaryEvent(): LiteraryEvent
+    /**
+     * Create LiteraryEvent.
+     *
+     * return \Spatie\SchemaOrg\LiteraryEvent
+     */
+    public static function literaryEvent()
     {
         return new LiteraryEvent();
     }
 
-    public static function locksmith(): Locksmith
+    /**
+     * Create Locksmith.
+     *
+     * return \Spatie\SchemaOrg\Locksmith
+     */
+    public static function locksmith()
     {
         return new Locksmith();
     }
 
-    public static function map(): Map
+    /**
+     * Create Map.
+     *
+     * return \Spatie\SchemaOrg\Map
+     */
+    public static function map()
     {
         return new Map();
     }
 
-    public static function mapCategoryType(): MapCategoryType
+    /**
+     * Create MapCategoryType.
+     *
+     * return \Spatie\SchemaOrg\MapCategoryType
+     */
+    public static function mapCategoryType()
     {
         return new MapCategoryType();
     }
 
-    public static function mass(): Mass
+    /**
+     * Create Mass.
+     *
+     * return \Spatie\SchemaOrg\Mass
+     */
+    public static function mass()
     {
         return new Mass();
     }
 
-    public static function peopleAudience(): PeopleAudience
+    /**
+     * Create PeopleAudience.
+     *
+     * return \Spatie\SchemaOrg\PeopleAudience
+     */
+    public static function peopleAudience()
     {
         return new PeopleAudience();
     }
 
-    public static function scholarlyArticle(): ScholarlyArticle
+    /**
+     * Create ScholarlyArticle.
+     *
+     * return \Spatie\SchemaOrg\ScholarlyArticle
+     */
+    public static function scholarlyArticle()
     {
         return new ScholarlyArticle();
     }
 
-    public static function specialty(): Specialty
+    /**
+     * Create Specialty.
+     *
+     * return \Spatie\SchemaOrg\Specialty
+     */
+    public static function specialty()
     {
         return new Specialty();
     }
 
-    public static function mensClothingStore(): MensClothingStore
+    /**
+     * Create MensClothingStore.
+     *
+     * return \Spatie\SchemaOrg\MensClothingStore
+     */
+    public static function mensClothingStore()
     {
         return new MensClothingStore();
     }
 
-    public static function middleSchool(): MiddleSchool
+    /**
+     * Create MiddleSchool.
+     *
+     * return \Spatie\SchemaOrg\MiddleSchool
+     */
+    public static function middleSchool()
     {
         return new MiddleSchool();
     }
 
-    public static function softwareApplication(): SoftwareApplication
+    /**
+     * Create SoftwareApplication.
+     *
+     * return \Spatie\SchemaOrg\SoftwareApplication
+     */
+    public static function softwareApplication()
     {
         return new SoftwareApplication();
     }
 
-    public static function mobileApplication(): MobileApplication
+    /**
+     * Create MobileApplication.
+     *
+     * return \Spatie\SchemaOrg\MobileApplication
+     */
+    public static function mobileApplication()
     {
         return new MobileApplication();
     }
 
-    public static function mobilePhoneStore(): MobilePhoneStore
+    /**
+     * Create MobilePhoneStore.
+     *
+     * return \Spatie\SchemaOrg\MobilePhoneStore
+     */
+    public static function mobilePhoneStore()
     {
         return new MobilePhoneStore();
     }
 
-    public static function mosque(): Mosque
+    /**
+     * Create Mosque.
+     *
+     * return \Spatie\SchemaOrg\Mosque
+     */
+    public static function mosque()
     {
         return new Mosque();
     }
 
-    public static function motel(): Motel
+    /**
+     * Create Motel.
+     *
+     * return \Spatie\SchemaOrg\Motel
+     */
+    public static function motel()
     {
         return new Motel();
     }
 
-    public static function motorcycleDealer(): MotorcycleDealer
+    /**
+     * Create MotorcycleDealer.
+     *
+     * return \Spatie\SchemaOrg\MotorcycleDealer
+     */
+    public static function motorcycleDealer()
     {
         return new MotorcycleDealer();
     }
 
-    public static function motorcycleRepair(): MotorcycleRepair
+    /**
+     * Create MotorcycleRepair.
+     *
+     * return \Spatie\SchemaOrg\MotorcycleRepair
+     */
+    public static function motorcycleRepair()
     {
         return new MotorcycleRepair();
     }
 
-    public static function mountain(): Mountain
+    /**
+     * Create Mountain.
+     *
+     * return \Spatie\SchemaOrg\Mountain
+     */
+    public static function mountain()
     {
         return new Mountain();
     }
 
-    public static function movie(): Movie
+    /**
+     * Create Movie.
+     *
+     * return \Spatie\SchemaOrg\Movie
+     */
+    public static function movie()
     {
         return new Movie();
     }
 
-    public static function movieClip(): MovieClip
+    /**
+     * Create MovieClip.
+     *
+     * return \Spatie\SchemaOrg\MovieClip
+     */
+    public static function movieClip()
     {
         return new MovieClip();
     }
 
-    public static function movieRentalStore(): MovieRentalStore
+    /**
+     * Create MovieRentalStore.
+     *
+     * return \Spatie\SchemaOrg\MovieRentalStore
+     */
+    public static function movieRentalStore()
     {
         return new MovieRentalStore();
     }
 
-    public static function movieTheater(): MovieTheater
+    /**
+     * Create MovieTheater.
+     *
+     * return \Spatie\SchemaOrg\MovieTheater
+     */
+    public static function movieTheater()
     {
         return new MovieTheater();
     }
 
-    public static function movingCompany(): MovingCompany
+    /**
+     * Create MovingCompany.
+     *
+     * return \Spatie\SchemaOrg\MovingCompany
+     */
+    public static function movingCompany()
     {
         return new MovingCompany();
     }
 
-    public static function museum(): Museum
+    /**
+     * Create Museum.
+     *
+     * return \Spatie\SchemaOrg\Museum
+     */
+    public static function museum()
     {
         return new Museum();
     }
 
-    public static function musicPlaylist(): MusicPlaylist
+    /**
+     * Create MusicPlaylist.
+     *
+     * return \Spatie\SchemaOrg\MusicPlaylist
+     */
+    public static function musicPlaylist()
     {
         return new MusicPlaylist();
     }
 
-    public static function musicAlbum(): MusicAlbum
+    /**
+     * Create MusicAlbum.
+     *
+     * return \Spatie\SchemaOrg\MusicAlbum
+     */
+    public static function musicAlbum()
     {
         return new MusicAlbum();
     }
 
-    public static function musicEvent(): MusicEvent
+    /**
+     * Create MusicEvent.
+     *
+     * return \Spatie\SchemaOrg\MusicEvent
+     */
+    public static function musicEvent()
     {
         return new MusicEvent();
     }
 
-    public static function musicGroup(): MusicGroup
+    /**
+     * Create MusicGroup.
+     *
+     * return \Spatie\SchemaOrg\MusicGroup
+     */
+    public static function musicGroup()
     {
         return new MusicGroup();
     }
 
-    public static function musicRecording(): MusicRecording
+    /**
+     * Create MusicRecording.
+     *
+     * return \Spatie\SchemaOrg\MusicRecording
+     */
+    public static function musicRecording()
     {
         return new MusicRecording();
     }
 
-    public static function musicStore(): MusicStore
+    /**
+     * Create MusicStore.
+     *
+     * return \Spatie\SchemaOrg\MusicStore
+     */
+    public static function musicStore()
     {
         return new MusicStore();
     }
 
-    public static function musicVenue(): MusicVenue
+    /**
+     * Create MusicVenue.
+     *
+     * return \Spatie\SchemaOrg\MusicVenue
+     */
+    public static function musicVenue()
     {
         return new MusicVenue();
     }
 
-    public static function musicVideoObject(): MusicVideoObject
+    /**
+     * Create MusicVideoObject.
+     *
+     * return \Spatie\SchemaOrg\MusicVideoObject
+     */
+    public static function musicVideoObject()
     {
         return new MusicVideoObject();
     }
 
-    public static function nGO(): NGO
+    /**
+     * Create NGO.
+     *
+     * return \Spatie\SchemaOrg\NGO
+     */
+    public static function nGO()
     {
         return new NGO();
     }
 
-    public static function nailSalon(): NailSalon
+    /**
+     * Create NailSalon.
+     *
+     * return \Spatie\SchemaOrg\NailSalon
+     */
+    public static function nailSalon()
     {
         return new NailSalon();
     }
 
-    public static function newsArticle(): NewsArticle
+    /**
+     * Create NewsArticle.
+     *
+     * return \Spatie\SchemaOrg\NewsArticle
+     */
+    public static function newsArticle()
     {
         return new NewsArticle();
     }
 
-    public static function nightClub(): NightClub
+    /**
+     * Create NightClub.
+     *
+     * return \Spatie\SchemaOrg\NightClub
+     */
+    public static function nightClub()
     {
         return new NightClub();
     }
 
-    public static function photograph(): Photograph
+    /**
+     * Create Photograph.
+     *
+     * return \Spatie\SchemaOrg\Photograph
+     */
+    public static function photograph()
     {
         return new Photograph();
     }
 
-    public static function notary(): Notary
+    /**
+     * Create Notary.
+     *
+     * return \Spatie\SchemaOrg\Notary
+     */
+    public static function notary()
     {
         return new Notary();
     }
 
-    public static function oceanBodyOfWater(): OceanBodyOfWater
+    /**
+     * Create OceanBodyOfWater.
+     *
+     * return \Spatie\SchemaOrg\OceanBodyOfWater
+     */
+    public static function oceanBodyOfWater()
     {
         return new OceanBodyOfWater();
     }
 
-    public static function offerItemCondition(): OfferItemCondition
+    /**
+     * Create OfferItemCondition.
+     *
+     * return \Spatie\SchemaOrg\OfferItemCondition
+     */
+    public static function offerItemCondition()
     {
         return new OfferItemCondition();
     }
 
-    public static function officeEquipmentStore(): OfficeEquipmentStore
+    /**
+     * Create OfficeEquipmentStore.
+     *
+     * return \Spatie\SchemaOrg\OfficeEquipmentStore
+     */
+    public static function officeEquipmentStore()
     {
         return new OfficeEquipmentStore();
     }
 
-    public static function outletStore(): OutletStore
+    /**
+     * Create OutletStore.
+     *
+     * return \Spatie\SchemaOrg\OutletStore
+     */
+    public static function outletStore()
     {
         return new OutletStore();
     }
 
-    public static function painting(): Painting
+    /**
+     * Create Painting.
+     *
+     * return \Spatie\SchemaOrg\Painting
+     */
+    public static function painting()
     {
         return new Painting();
     }
 
-    public static function park(): Park
+    /**
+     * Create Park.
+     *
+     * return \Spatie\SchemaOrg\Park
+     */
+    public static function park()
     {
         return new Park();
     }
 
-    public static function parkingFacility(): ParkingFacility
+    /**
+     * Create ParkingFacility.
+     *
+     * return \Spatie\SchemaOrg\ParkingFacility
+     */
+    public static function parkingFacility()
     {
         return new ParkingFacility();
     }
 
-    public static function pawnShop(): PawnShop
+    /**
+     * Create PawnShop.
+     *
+     * return \Spatie\SchemaOrg\PawnShop
+     */
+    public static function pawnShop()
     {
         return new PawnShop();
     }
 
-    public static function performingArtsTheater(): PerformingArtsTheater
+    /**
+     * Create PerformingArtsTheater.
+     *
+     * return \Spatie\SchemaOrg\PerformingArtsTheater
+     */
+    public static function performingArtsTheater()
     {
         return new PerformingArtsTheater();
     }
 
-    public static function person(): Person
+    /**
+     * Create Person.
+     *
+     * return \Spatie\SchemaOrg\Person
+     */
+    public static function person()
     {
         return new Person();
     }
 
-    public static function petStore(): PetStore
+    /**
+     * Create PetStore.
+     *
+     * return \Spatie\SchemaOrg\PetStore
+     */
+    public static function petStore()
     {
         return new PetStore();
     }
 
-    public static function playground(): Playground
+    /**
+     * Create Playground.
+     *
+     * return \Spatie\SchemaOrg\Playground
+     */
+    public static function playground()
     {
         return new Playground();
     }
 
-    public static function plumber(): Plumber
+    /**
+     * Create Plumber.
+     *
+     * return \Spatie\SchemaOrg\Plumber
+     */
+    public static function plumber()
     {
         return new Plumber();
     }
 
-    public static function policeStation(): PoliceStation
+    /**
+     * Create PoliceStation.
+     *
+     * return \Spatie\SchemaOrg\PoliceStation
+     */
+    public static function policeStation()
     {
         return new PoliceStation();
     }
 
-    public static function pond(): Pond
+    /**
+     * Create Pond.
+     *
+     * return \Spatie\SchemaOrg\Pond
+     */
+    public static function pond()
     {
         return new Pond();
     }
 
-    public static function postOffice(): PostOffice
+    /**
+     * Create PostOffice.
+     *
+     * return \Spatie\SchemaOrg\PostOffice
+     */
+    public static function postOffice()
     {
         return new PostOffice();
     }
 
-    public static function postalAddress(): PostalAddress
+    /**
+     * Create PostalAddress.
+     *
+     * return \Spatie\SchemaOrg\PostalAddress
+     */
+    public static function postalAddress()
     {
         return new PostalAddress();
     }
 
-    public static function preschool(): Preschool
+    /**
+     * Create Preschool.
+     *
+     * return \Spatie\SchemaOrg\Preschool
+     */
+    public static function preschool()
     {
         return new Preschool();
     }
 
-    public static function product(): Product
+    /**
+     * Create Product.
+     *
+     * return \Spatie\SchemaOrg\Product
+     */
+    public static function product()
     {
         return new Product();
     }
 
-    public static function profilePage(): ProfilePage
+    /**
+     * Create ProfilePage.
+     *
+     * return \Spatie\SchemaOrg\ProfilePage
+     */
+    public static function profilePage()
     {
         return new ProfilePage();
     }
 
-    public static function publicSwimmingPool(): PublicSwimmingPool
+    /**
+     * Create PublicSwimmingPool.
+     *
+     * return \Spatie\SchemaOrg\PublicSwimmingPool
+     */
+    public static function publicSwimmingPool()
     {
         return new PublicSwimmingPool();
     }
 
-    public static function rVPark(): RVPark
+    /**
+     * Create RVPark.
+     *
+     * return \Spatie\SchemaOrg\RVPark
+     */
+    public static function rVPark()
     {
         return new RVPark();
     }
 
-    public static function radioStation(): RadioStation
+    /**
+     * Create RadioStation.
+     *
+     * return \Spatie\SchemaOrg\RadioStation
+     */
+    public static function radioStation()
     {
         return new RadioStation();
     }
 
-    public static function realEstateAgent(): RealEstateAgent
+    /**
+     * Create RealEstateAgent.
+     *
+     * return \Spatie\SchemaOrg\RealEstateAgent
+     */
+    public static function realEstateAgent()
     {
         return new RealEstateAgent();
     }
 
-    public static function recyclingCenter(): RecyclingCenter
+    /**
+     * Create RecyclingCenter.
+     *
+     * return \Spatie\SchemaOrg\RecyclingCenter
+     */
+    public static function recyclingCenter()
     {
         return new RecyclingCenter();
     }
 
-    public static function reservoir(): Reservoir
+    /**
+     * Create Reservoir.
+     *
+     * return \Spatie\SchemaOrg\Reservoir
+     */
+    public static function reservoir()
     {
         return new Reservoir();
     }
 
-    public static function restaurant(): Restaurant
+    /**
+     * Create Restaurant.
+     *
+     * return \Spatie\SchemaOrg\Restaurant
+     */
+    public static function restaurant()
     {
         return new Restaurant();
     }
 
-    public static function restrictedDiet(): RestrictedDiet
+    /**
+     * Create RestrictedDiet.
+     *
+     * return \Spatie\SchemaOrg\RestrictedDiet
+     */
+    public static function restrictedDiet()
     {
         return new RestrictedDiet();
     }
 
-    public static function review(): Review
+    /**
+     * Create Review.
+     *
+     * return \Spatie\SchemaOrg\Review
+     */
+    public static function review()
     {
         return new Review();
     }
 
-    public static function riverBodyOfWater(): RiverBodyOfWater
+    /**
+     * Create RiverBodyOfWater.
+     *
+     * return \Spatie\SchemaOrg\RiverBodyOfWater
+     */
+    public static function riverBodyOfWater()
     {
         return new RiverBodyOfWater();
     }
 
-    public static function roofingContractor(): RoofingContractor
+    /**
+     * Create RoofingContractor.
+     *
+     * return \Spatie\SchemaOrg\RoofingContractor
+     */
+    public static function roofingContractor()
     {
         return new RoofingContractor();
     }
 
-    public static function saleEvent(): SaleEvent
+    /**
+     * Create SaleEvent.
+     *
+     * return \Spatie\SchemaOrg\SaleEvent
+     */
+    public static function saleEvent()
     {
         return new SaleEvent();
     }
 
-    public static function school(): School
+    /**
+     * Create School.
+     *
+     * return \Spatie\SchemaOrg\School
+     */
+    public static function school()
     {
         return new School();
     }
 
-    public static function sculpture(): Sculpture
+    /**
+     * Create Sculpture.
+     *
+     * return \Spatie\SchemaOrg\Sculpture
+     */
+    public static function sculpture()
     {
         return new Sculpture();
     }
 
-    public static function screeningEvent(): ScreeningEvent
+    /**
+     * Create ScreeningEvent.
+     *
+     * return \Spatie\SchemaOrg\ScreeningEvent
+     */
+    public static function screeningEvent()
     {
         return new ScreeningEvent();
     }
 
-    public static function seaBodyOfWater(): SeaBodyOfWater
+    /**
+     * Create SeaBodyOfWater.
+     *
+     * return \Spatie\SchemaOrg\SeaBodyOfWater
+     */
+    public static function seaBodyOfWater()
     {
         return new SeaBodyOfWater();
     }
 
-    public static function searchResultsPage(): SearchResultsPage
+    /**
+     * Create SearchResultsPage.
+     *
+     * return \Spatie\SchemaOrg\SearchResultsPage
+     */
+    public static function searchResultsPage()
     {
         return new SearchResultsPage();
     }
 
-    public static function selfStorage(): SelfStorage
+    /**
+     * Create SelfStorage.
+     *
+     * return \Spatie\SchemaOrg\SelfStorage
+     */
+    public static function selfStorage()
     {
         return new SelfStorage();
     }
 
-    public static function shoeStore(): ShoeStore
+    /**
+     * Create ShoeStore.
+     *
+     * return \Spatie\SchemaOrg\ShoeStore
+     */
+    public static function shoeStore()
     {
         return new ShoeStore();
     }
 
-    public static function shoppingCenter(): ShoppingCenter
+    /**
+     * Create ShoppingCenter.
+     *
+     * return \Spatie\SchemaOrg\ShoppingCenter
+     */
+    public static function shoppingCenter()
     {
         return new ShoppingCenter();
     }
 
-    public static function singleFamilyResidence(): SingleFamilyResidence
+    /**
+     * Create SingleFamilyResidence.
+     *
+     * return \Spatie\SchemaOrg\SingleFamilyResidence
+     */
+    public static function singleFamilyResidence()
     {
         return new SingleFamilyResidence();
     }
 
-    public static function webPageElement(): WebPageElement
+    /**
+     * Create WebPageElement.
+     *
+     * return \Spatie\SchemaOrg\WebPageElement
+     */
+    public static function webPageElement()
     {
         return new WebPageElement();
     }
 
-    public static function siteNavigationElement(): SiteNavigationElement
+    /**
+     * Create SiteNavigationElement.
+     *
+     * return \Spatie\SchemaOrg\SiteNavigationElement
+     */
+    public static function siteNavigationElement()
     {
         return new SiteNavigationElement();
     }
 
-    public static function skiResort(): SkiResort
+    /**
+     * Create SkiResort.
+     *
+     * return \Spatie\SchemaOrg\SkiResort
+     */
+    public static function skiResort()
     {
         return new SkiResort();
     }
 
-    public static function socialEvent(): SocialEvent
+    /**
+     * Create SocialEvent.
+     *
+     * return \Spatie\SchemaOrg\SocialEvent
+     */
+    public static function socialEvent()
     {
         return new SocialEvent();
     }
 
-    public static function sportingGoodsStore(): SportingGoodsStore
+    /**
+     * Create SportingGoodsStore.
+     *
+     * return \Spatie\SchemaOrg\SportingGoodsStore
+     */
+    public static function sportingGoodsStore()
     {
         return new SportingGoodsStore();
     }
 
-    public static function sportsClub(): SportsClub
+    /**
+     * Create SportsClub.
+     *
+     * return \Spatie\SchemaOrg\SportsClub
+     */
+    public static function sportsClub()
     {
         return new SportsClub();
     }
 
-    public static function sportsEvent(): SportsEvent
+    /**
+     * Create SportsEvent.
+     *
+     * return \Spatie\SchemaOrg\SportsEvent
+     */
+    public static function sportsEvent()
     {
         return new SportsEvent();
     }
 
-    public static function sportsTeam(): SportsTeam
+    /**
+     * Create SportsTeam.
+     *
+     * return \Spatie\SchemaOrg\SportsTeam
+     */
+    public static function sportsTeam()
     {
         return new SportsTeam();
     }
 
-    public static function stadiumOrArena(): StadiumOrArena
+    /**
+     * Create StadiumOrArena.
+     *
+     * return \Spatie\SchemaOrg\StadiumOrArena
+     */
+    public static function stadiumOrArena()
     {
         return new StadiumOrArena();
     }
 
-    public static function state(): State
+    /**
+     * Create State.
+     *
+     * return \Spatie\SchemaOrg\State
+     */
+    public static function state()
     {
         return new State();
     }
 
-    public static function subwayStation(): SubwayStation
+    /**
+     * Create SubwayStation.
+     *
+     * return \Spatie\SchemaOrg\SubwayStation
+     */
+    public static function subwayStation()
     {
         return new SubwayStation();
     }
 
-    public static function synagogue(): Synagogue
+    /**
+     * Create Synagogue.
+     *
+     * return \Spatie\SchemaOrg\Synagogue
+     */
+    public static function synagogue()
     {
         return new Synagogue();
     }
 
-    public static function episode(): Episode
+    /**
+     * Create Episode.
+     *
+     * return \Spatie\SchemaOrg\Episode
+     */
+    public static function episode()
     {
         return new Episode();
     }
 
-    public static function tVEpisode(): TVEpisode
+    /**
+     * Create TVEpisode.
+     *
+     * return \Spatie\SchemaOrg\TVEpisode
+     */
+    public static function tVEpisode()
     {
         return new TVEpisode();
     }
 
-    public static function season(): Season
+    /**
+     * Create Season.
+     *
+     * return \Spatie\SchemaOrg\Season
+     */
+    public static function season()
     {
         return new Season();
     }
 
-    public static function creativeWorkSeason(): CreativeWorkSeason
+    /**
+     * Create CreativeWorkSeason.
+     *
+     * return \Spatie\SchemaOrg\CreativeWorkSeason
+     */
+    public static function creativeWorkSeason()
     {
         return new CreativeWorkSeason();
     }
 
-    public static function tVSeason(): TVSeason
+    /**
+     * Create TVSeason.
+     *
+     * return \Spatie\SchemaOrg\TVSeason
+     */
+    public static function tVSeason()
     {
         return new TVSeason();
     }
 
-    public static function series(): Series
+    /**
+     * Create Series.
+     *
+     * return \Spatie\SchemaOrg\Series
+     */
+    public static function series()
     {
         return new Series();
     }
 
-    public static function creativeWorkSeries(): CreativeWorkSeries
+    /**
+     * Create CreativeWorkSeries.
+     *
+     * return \Spatie\SchemaOrg\CreativeWorkSeries
+     */
+    public static function creativeWorkSeries()
     {
         return new CreativeWorkSeries();
     }
 
-    public static function tVSeries(): TVSeries
+    /**
+     * Create TVSeries.
+     *
+     * return \Spatie\SchemaOrg\TVSeries
+     */
+    public static function tVSeries()
     {
         return new TVSeries();
     }
 
-    public static function videoGameSeries(): VideoGameSeries
+    /**
+     * Create VideoGameSeries.
+     *
+     * return \Spatie\SchemaOrg\VideoGameSeries
+     */
+    public static function videoGameSeries()
     {
         return new VideoGameSeries();
     }
 
-    public static function table(): Table
+    /**
+     * Create Table.
+     *
+     * return \Spatie\SchemaOrg\Table
+     */
+    public static function table()
     {
         return new Table();
     }
 
-    public static function tattooParlor(): TattooParlor
+    /**
+     * Create TattooParlor.
+     *
+     * return \Spatie\SchemaOrg\TattooParlor
+     */
+    public static function tattooParlor()
     {
         return new TattooParlor();
     }
 
-    public static function taxiStand(): TaxiStand
+    /**
+     * Create TaxiStand.
+     *
+     * return \Spatie\SchemaOrg\TaxiStand
+     */
+    public static function taxiStand()
     {
         return new TaxiStand();
     }
 
-    public static function televisionStation(): TelevisionStation
+    /**
+     * Create TelevisionStation.
+     *
+     * return \Spatie\SchemaOrg\TelevisionStation
+     */
+    public static function televisionStation()
     {
         return new TelevisionStation();
     }
 
-    public static function tennisComplex(): TennisComplex
+    /**
+     * Create TennisComplex.
+     *
+     * return \Spatie\SchemaOrg\TennisComplex
+     */
+    public static function tennisComplex()
     {
         return new TennisComplex();
     }
 
-    public static function theaterEvent(): TheaterEvent
+    /**
+     * Create TheaterEvent.
+     *
+     * return \Spatie\SchemaOrg\TheaterEvent
+     */
+    public static function theaterEvent()
     {
         return new TheaterEvent();
     }
 
-    public static function theaterGroup(): TheaterGroup
+    /**
+     * Create TheaterGroup.
+     *
+     * return \Spatie\SchemaOrg\TheaterGroup
+     */
+    public static function theaterGroup()
     {
         return new TheaterGroup();
     }
 
-    public static function tireShop(): TireShop
+    /**
+     * Create TireShop.
+     *
+     * return \Spatie\SchemaOrg\TireShop
+     */
+    public static function tireShop()
     {
         return new TireShop();
     }
 
-    public static function touristAttraction(): TouristAttraction
+    /**
+     * Create TouristAttraction.
+     *
+     * return \Spatie\SchemaOrg\TouristAttraction
+     */
+    public static function touristAttraction()
     {
         return new TouristAttraction();
     }
 
-    public static function touristInformationCenter(): TouristInformationCenter
+    /**
+     * Create TouristInformationCenter.
+     *
+     * return \Spatie\SchemaOrg\TouristInformationCenter
+     */
+    public static function touristInformationCenter()
     {
         return new TouristInformationCenter();
     }
 
-    public static function toyStore(): ToyStore
+    /**
+     * Create ToyStore.
+     *
+     * return \Spatie\SchemaOrg\ToyStore
+     */
+    public static function toyStore()
     {
         return new ToyStore();
     }
 
-    public static function trainStation(): TrainStation
+    /**
+     * Create TrainStation.
+     *
+     * return \Spatie\SchemaOrg\TrainStation
+     */
+    public static function trainStation()
     {
         return new TrainStation();
     }
 
-    public static function travelAgency(): TravelAgency
+    /**
+     * Create TravelAgency.
+     *
+     * return \Spatie\SchemaOrg\TravelAgency
+     */
+    public static function travelAgency()
     {
         return new TravelAgency();
     }
 
-    public static function userInteraction(): UserInteraction
+    /**
+     * Create UserInteraction.
+     *
+     * return \Spatie\SchemaOrg\UserInteraction
+     */
+    public static function userInteraction()
     {
         return new UserInteraction();
     }
 
-    public static function userBlocks(): UserBlocks
+    /**
+     * Create UserBlocks.
+     *
+     * return \Spatie\SchemaOrg\UserBlocks
+     */
+    public static function userBlocks()
     {
         return new UserBlocks();
     }
 
-    public static function userCheckins(): UserCheckins
+    /**
+     * Create UserCheckins.
+     *
+     * return \Spatie\SchemaOrg\UserCheckins
+     */
+    public static function userCheckins()
     {
         return new UserCheckins();
     }
 
-    public static function userComments(): UserComments
+    /**
+     * Create UserComments.
+     *
+     * return \Spatie\SchemaOrg\UserComments
+     */
+    public static function userComments()
     {
         return new UserComments();
     }
 
-    public static function userDownloads(): UserDownloads
+    /**
+     * Create UserDownloads.
+     *
+     * return \Spatie\SchemaOrg\UserDownloads
+     */
+    public static function userDownloads()
     {
         return new UserDownloads();
     }
 
-    public static function userLikes(): UserLikes
+    /**
+     * Create UserLikes.
+     *
+     * return \Spatie\SchemaOrg\UserLikes
+     */
+    public static function userLikes()
     {
         return new UserLikes();
     }
 
-    public static function userPageVisits(): UserPageVisits
+    /**
+     * Create UserPageVisits.
+     *
+     * return \Spatie\SchemaOrg\UserPageVisits
+     */
+    public static function userPageVisits()
     {
         return new UserPageVisits();
     }
 
-    public static function userPlays(): UserPlays
+    /**
+     * Create UserPlays.
+     *
+     * return \Spatie\SchemaOrg\UserPlays
+     */
+    public static function userPlays()
     {
         return new UserPlays();
     }
 
-    public static function userPlusOnes(): UserPlusOnes
+    /**
+     * Create UserPlusOnes.
+     *
+     * return \Spatie\SchemaOrg\UserPlusOnes
+     */
+    public static function userPlusOnes()
     {
         return new UserPlusOnes();
     }
 
-    public static function userTweets(): UserTweets
+    /**
+     * Create UserTweets.
+     *
+     * return \Spatie\SchemaOrg\UserTweets
+     */
+    public static function userTweets()
     {
         return new UserTweets();
     }
 
-    public static function videoGallery(): VideoGallery
+    /**
+     * Create VideoGallery.
+     *
+     * return \Spatie\SchemaOrg\VideoGallery
+     */
+    public static function videoGallery()
     {
         return new VideoGallery();
     }
 
-    public static function videoObject(): VideoObject
+    /**
+     * Create VideoObject.
+     *
+     * return \Spatie\SchemaOrg\VideoObject
+     */
+    public static function videoObject()
     {
         return new VideoObject();
     }
 
-    public static function visualArtsEvent(): VisualArtsEvent
+    /**
+     * Create VisualArtsEvent.
+     *
+     * return \Spatie\SchemaOrg\VisualArtsEvent
+     */
+    public static function visualArtsEvent()
     {
         return new VisualArtsEvent();
     }
 
-    public static function exhibitionEvent(): ExhibitionEvent
+    /**
+     * Create ExhibitionEvent.
+     *
+     * return \Spatie\SchemaOrg\ExhibitionEvent
+     */
+    public static function exhibitionEvent()
     {
         return new ExhibitionEvent();
     }
 
-    public static function volcano(): Volcano
+    /**
+     * Create Volcano.
+     *
+     * return \Spatie\SchemaOrg\Volcano
+     */
+    public static function volcano()
     {
         return new Volcano();
     }
 
-    public static function wPAdBlock(): WPAdBlock
+    /**
+     * Create WPAdBlock.
+     *
+     * return \Spatie\SchemaOrg\WPAdBlock
+     */
+    public static function wPAdBlock()
     {
         return new WPAdBlock();
     }
 
-    public static function wPFooter(): WPFooter
+    /**
+     * Create WPFooter.
+     *
+     * return \Spatie\SchemaOrg\WPFooter
+     */
+    public static function wPFooter()
     {
         return new WPFooter();
     }
 
-    public static function wPHeader(): WPHeader
+    /**
+     * Create WPHeader.
+     *
+     * return \Spatie\SchemaOrg\WPHeader
+     */
+    public static function wPHeader()
     {
         return new WPHeader();
     }
 
-    public static function wPSideBar(): WPSideBar
+    /**
+     * Create WPSideBar.
+     *
+     * return \Spatie\SchemaOrg\WPSideBar
+     */
+    public static function wPSideBar()
     {
         return new WPSideBar();
     }
 
-    public static function waterfall(): Waterfall
+    /**
+     * Create Waterfall.
+     *
+     * return \Spatie\SchemaOrg\Waterfall
+     */
+    public static function waterfall()
     {
         return new Waterfall();
     }
 
-    public static function webApplication(): WebApplication
+    /**
+     * Create WebApplication.
+     *
+     * return \Spatie\SchemaOrg\WebApplication
+     */
+    public static function webApplication()
     {
         return new WebApplication();
     }
 
-    public static function wholesaleStore(): WholesaleStore
+    /**
+     * Create WholesaleStore.
+     *
+     * return \Spatie\SchemaOrg\WholesaleStore
+     */
+    public static function wholesaleStore()
     {
         return new WholesaleStore();
     }
 
-    public static function winery(): Winery
+    /**
+     * Create Winery.
+     *
+     * return \Spatie\SchemaOrg\Winery
+     */
+    public static function winery()
     {
         return new Winery();
     }
 
-    public static function zoo(): Zoo
+    /**
+     * Create Zoo.
+     *
+     * return \Spatie\SchemaOrg\Zoo
+     */
+    public static function zoo()
     {
         return new Zoo();
     }
 
-    public static function brand(): Brand
+    /**
+     * Create Brand.
+     *
+     * return \Spatie\SchemaOrg\Brand
+     */
+    public static function brand()
     {
         return new Brand();
     }
 
-    public static function businessEntityType(): BusinessEntityType
+    /**
+     * Create BusinessEntityType.
+     *
+     * return \Spatie\SchemaOrg\BusinessEntityType
+     */
+    public static function businessEntityType()
     {
         return new BusinessEntityType();
     }
 
-    public static function creditCard(): CreditCard
+    /**
+     * Create CreditCard.
+     *
+     * return \Spatie\SchemaOrg\CreditCard
+     */
+    public static function creditCard()
     {
         return new CreditCard();
     }
 
-    public static function businessFunction(): BusinessFunction
+    /**
+     * Create BusinessFunction.
+     *
+     * return \Spatie\SchemaOrg\BusinessFunction
+     */
+    public static function businessFunction()
     {
         return new BusinessFunction();
     }
 
-    public static function paymentMethod(): PaymentMethod
+    /**
+     * Create PaymentMethod.
+     *
+     * return \Spatie\SchemaOrg\PaymentMethod
+     */
+    public static function paymentMethod()
     {
         return new PaymentMethod();
     }
 
-    public static function dayOfWeek(): DayOfWeek
+    /**
+     * Create DayOfWeek.
+     *
+     * return \Spatie\SchemaOrg\DayOfWeek
+     */
+    public static function dayOfWeek()
     {
         return new DayOfWeek();
     }
 
-    public static function priceSpecification(): PriceSpecification
+    /**
+     * Create PriceSpecification.
+     *
+     * return \Spatie\SchemaOrg\PriceSpecification
+     */
+    public static function priceSpecification()
     {
         return new PriceSpecification();
     }
 
-    public static function deliveryChargeSpecification(): DeliveryChargeSpecification
+    /**
+     * Create DeliveryChargeSpecification.
+     *
+     * return \Spatie\SchemaOrg\DeliveryChargeSpecification
+     */
+    public static function deliveryChargeSpecification()
     {
         return new DeliveryChargeSpecification();
     }
 
-    public static function deliveryMethod(): DeliveryMethod
+    /**
+     * Create DeliveryMethod.
+     *
+     * return \Spatie\SchemaOrg\DeliveryMethod
+     */
+    public static function deliveryMethod()
     {
         return new DeliveryMethod();
     }
 
-    public static function demand(): Demand
+    /**
+     * Create Demand.
+     *
+     * return \Spatie\SchemaOrg\Demand
+     */
+    public static function demand()
     {
         return new Demand();
     }
 
-    public static function individualProduct(): IndividualProduct
+    /**
+     * Create IndividualProduct.
+     *
+     * return \Spatie\SchemaOrg\IndividualProduct
+     */
+    public static function individualProduct()
     {
         return new IndividualProduct();
     }
 
-    public static function openingHoursSpecification(): OpeningHoursSpecification
+    /**
+     * Create OpeningHoursSpecification.
+     *
+     * return \Spatie\SchemaOrg\OpeningHoursSpecification
+     */
+    public static function openingHoursSpecification()
     {
         return new OpeningHoursSpecification();
     }
 
-    public static function ownershipInfo(): OwnershipInfo
+    /**
+     * Create OwnershipInfo.
+     *
+     * return \Spatie\SchemaOrg\OwnershipInfo
+     */
+    public static function ownershipInfo()
     {
         return new OwnershipInfo();
     }
 
-    public static function parcelService(): ParcelService
+    /**
+     * Create ParcelService.
+     *
+     * return \Spatie\SchemaOrg\ParcelService
+     */
+    public static function parcelService()
     {
         return new ParcelService();
     }
 
-    public static function paymentChargeSpecification(): PaymentChargeSpecification
+    /**
+     * Create PaymentChargeSpecification.
+     *
+     * return \Spatie\SchemaOrg\PaymentChargeSpecification
+     */
+    public static function paymentChargeSpecification()
     {
         return new PaymentChargeSpecification();
     }
 
-    public static function productModel(): ProductModel
+    /**
+     * Create ProductModel.
+     *
+     * return \Spatie\SchemaOrg\ProductModel
+     */
+    public static function productModel()
     {
         return new ProductModel();
     }
 
-    public static function qualitativeValue(): QualitativeValue
+    /**
+     * Create QualitativeValue.
+     *
+     * return \Spatie\SchemaOrg\QualitativeValue
+     */
+    public static function qualitativeValue()
     {
         return new QualitativeValue();
     }
 
-    public static function quantitativeValue(): QuantitativeValue
+    /**
+     * Create QuantitativeValue.
+     *
+     * return \Spatie\SchemaOrg\QuantitativeValue
+     */
+    public static function quantitativeValue()
     {
         return new QuantitativeValue();
     }
 
-    public static function someProducts(): SomeProducts
+    /**
+     * Create SomeProducts.
+     *
+     * return \Spatie\SchemaOrg\SomeProducts
+     */
+    public static function someProducts()
     {
         return new SomeProducts();
     }
 
-    public static function typeAndQuantityNode(): TypeAndQuantityNode
+    /**
+     * Create TypeAndQuantityNode.
+     *
+     * return \Spatie\SchemaOrg\TypeAndQuantityNode
+     */
+    public static function typeAndQuantityNode()
     {
         return new TypeAndQuantityNode();
     }
 
-    public static function unitPriceSpecification(): UnitPriceSpecification
+    /**
+     * Create UnitPriceSpecification.
+     *
+     * return \Spatie\SchemaOrg\UnitPriceSpecification
+     */
+    public static function unitPriceSpecification()
     {
         return new UnitPriceSpecification();
     }
 
-    public static function warrantyPromise(): WarrantyPromise
+    /**
+     * Create WarrantyPromise.
+     *
+     * return \Spatie\SchemaOrg\WarrantyPromise
+     */
+    public static function warrantyPromise()
     {
         return new WarrantyPromise();
     }
 
-    public static function warrantyScope(): WarrantyScope
+    /**
+     * Create WarrantyScope.
+     *
+     * return \Spatie\SchemaOrg\WarrantyScope
+     */
+    public static function warrantyScope()
     {
         return new WarrantyScope();
     }
 
-    public static function techArticle(): TechArticle
+    /**
+     * Create TechArticle.
+     *
+     * return \Spatie\SchemaOrg\TechArticle
+     */
+    public static function techArticle()
     {
         return new TechArticle();
     }
 
-    public static function aPIReference(): APIReference
+    /**
+     * Create APIReference.
+     *
+     * return \Spatie\SchemaOrg\APIReference
+     */
+    public static function aPIReference()
     {
         return new APIReference();
     }
 
-    public static function code(): Code
+    /**
+     * Create Code.
+     *
+     * return \Spatie\SchemaOrg\Code
+     */
+    public static function code()
     {
         return new Code();
     }
 
-    public static function softwareSourceCode(): SoftwareSourceCode
+    /**
+     * Create SoftwareSourceCode.
+     *
+     * return \Spatie\SchemaOrg\SoftwareSourceCode
+     */
+    public static function softwareSourceCode()
     {
         return new SoftwareSourceCode();
     }
 
-    public static function parentAudience(): ParentAudience
+    /**
+     * Create ParentAudience.
+     *
+     * return \Spatie\SchemaOrg\ParentAudience
+     */
+    public static function parentAudience()
     {
         return new ParentAudience();
     }
 
-    public static function alignmentObject(): AlignmentObject
+    /**
+     * Create AlignmentObject.
+     *
+     * return \Spatie\SchemaOrg\AlignmentObject
+     */
+    public static function alignmentObject()
     {
         return new AlignmentObject();
     }
 
-    public static function educationalAudience(): EducationalAudience
+    /**
+     * Create EducationalAudience.
+     *
+     * return \Spatie\SchemaOrg\EducationalAudience
+     */
+    public static function educationalAudience()
     {
         return new EducationalAudience();
     }
 
-    public static function dataCatalog(): DataCatalog
+    /**
+     * Create DataCatalog.
+     *
+     * return \Spatie\SchemaOrg\DataCatalog
+     */
+    public static function dataCatalog()
     {
         return new DataCatalog();
     }
 
-    public static function dataDownload(): DataDownload
+    /**
+     * Create DataDownload.
+     *
+     * return \Spatie\SchemaOrg\DataDownload
+     */
+    public static function dataDownload()
     {
         return new DataDownload();
     }
 
-    public static function dataset(): Dataset
+    /**
+     * Create Dataset.
+     *
+     * return \Spatie\SchemaOrg\Dataset
+     */
+    public static function dataset()
     {
         return new Dataset();
     }
 
-    public static function publicationEvent(): PublicationEvent
+    /**
+     * Create PublicationEvent.
+     *
+     * return \Spatie\SchemaOrg\PublicationEvent
+     */
+    public static function publicationEvent()
     {
         return new PublicationEvent();
     }
 
-    public static function broadcastEvent(): BroadcastEvent
+    /**
+     * Create BroadcastEvent.
+     *
+     * return \Spatie\SchemaOrg\BroadcastEvent
+     */
+    public static function broadcastEvent()
     {
         return new BroadcastEvent();
     }
 
-    public static function broadcastService(): BroadcastService
+    /**
+     * Create BroadcastService.
+     *
+     * return \Spatie\SchemaOrg\BroadcastService
+     */
+    public static function broadcastService()
     {
         return new BroadcastService();
     }
 
-    public static function clip(): Clip
+    /**
+     * Create Clip.
+     *
+     * return \Spatie\SchemaOrg\Clip
+     */
+    public static function clip()
     {
         return new Clip();
     }
 
-    public static function onDemandEvent(): OnDemandEvent
+    /**
+     * Create OnDemandEvent.
+     *
+     * return \Spatie\SchemaOrg\OnDemandEvent
+     */
+    public static function onDemandEvent()
     {
         return new OnDemandEvent();
     }
 
-    public static function radioClip(): RadioClip
+    /**
+     * Create RadioClip.
+     *
+     * return \Spatie\SchemaOrg\RadioClip
+     */
+    public static function radioClip()
     {
         return new RadioClip();
     }
 
-    public static function radioEpisode(): RadioEpisode
+    /**
+     * Create RadioEpisode.
+     *
+     * return \Spatie\SchemaOrg\RadioEpisode
+     */
+    public static function radioEpisode()
     {
         return new RadioEpisode();
     }
 
-    public static function radioSeason(): RadioSeason
+    /**
+     * Create RadioSeason.
+     *
+     * return \Spatie\SchemaOrg\RadioSeason
+     */
+    public static function radioSeason()
     {
         return new RadioSeason();
     }
 
-    public static function radioSeries(): RadioSeries
+    /**
+     * Create RadioSeries.
+     *
+     * return \Spatie\SchemaOrg\RadioSeries
+     */
+    public static function radioSeries()
     {
         return new RadioSeries();
     }
 
-    public static function tVClip(): TVClip
+    /**
+     * Create TVClip.
+     *
+     * return \Spatie\SchemaOrg\TVClip
+     */
+    public static function tVClip()
     {
         return new TVClip();
     }
 
-    public static function businessAudience(): BusinessAudience
+    /**
+     * Create BusinessAudience.
+     *
+     * return \Spatie\SchemaOrg\BusinessAudience
+     */
+    public static function businessAudience()
     {
         return new BusinessAudience();
     }
 
-    public static function contactPointOption(): ContactPointOption
+    /**
+     * Create ContactPointOption.
+     *
+     * return \Spatie\SchemaOrg\ContactPointOption
+     */
+    public static function contactPointOption()
     {
         return new ContactPointOption();
     }
 
-    public static function permit(): Permit
+    /**
+     * Create Permit.
+     *
+     * return \Spatie\SchemaOrg\Permit
+     */
+    public static function permit()
     {
         return new Permit();
     }
 
-    public static function governmentPermit(): GovernmentPermit
+    /**
+     * Create GovernmentPermit.
+     *
+     * return \Spatie\SchemaOrg\GovernmentPermit
+     */
+    public static function governmentPermit()
     {
         return new GovernmentPermit();
     }
 
-    public static function service(): Service
+    /**
+     * Create Service.
+     *
+     * return \Spatie\SchemaOrg\Service
+     */
+    public static function service()
     {
         return new Service();
     }
 
-    public static function governmentService(): GovernmentService
+    /**
+     * Create GovernmentService.
+     *
+     * return \Spatie\SchemaOrg\GovernmentService
+     */
+    public static function governmentService()
     {
         return new GovernmentService();
     }
 
-    public static function serviceChannel(): ServiceChannel
+    /**
+     * Create ServiceChannel.
+     *
+     * return \Spatie\SchemaOrg\ServiceChannel
+     */
+    public static function serviceChannel()
     {
         return new ServiceChannel();
     }
 
-    public static function eventStatusType(): EventStatusType
+    /**
+     * Create EventStatusType.
+     *
+     * return \Spatie\SchemaOrg\EventStatusType
+     */
+    public static function eventStatusType()
     {
         return new EventStatusType();
     }
 
-    public static function deliveryEvent(): DeliveryEvent
+    /**
+     * Create DeliveryEvent.
+     *
+     * return \Spatie\SchemaOrg\DeliveryEvent
+     */
+    public static function deliveryEvent()
     {
         return new DeliveryEvent();
     }
 
-    public static function lockerDelivery(): LockerDelivery
+    /**
+     * Create LockerDelivery.
+     *
+     * return \Spatie\SchemaOrg\LockerDelivery
+     */
+    public static function lockerDelivery()
     {
         return new LockerDelivery();
     }
 
-    public static function order(): Order
+    /**
+     * Create Order.
+     *
+     * return \Spatie\SchemaOrg\Order
+     */
+    public static function order()
     {
         return new Order();
     }
 
-    public static function orderStatus(): OrderStatus
+    /**
+     * Create OrderStatus.
+     *
+     * return \Spatie\SchemaOrg\OrderStatus
+     */
+    public static function orderStatus()
     {
         return new OrderStatus();
     }
 
-    public static function parcelDelivery(): ParcelDelivery
+    /**
+     * Create ParcelDelivery.
+     *
+     * return \Spatie\SchemaOrg\ParcelDelivery
+     */
+    public static function parcelDelivery()
     {
         return new ParcelDelivery();
     }
 
-    public static function orderItem(): OrderItem
+    /**
+     * Create OrderItem.
+     *
+     * return \Spatie\SchemaOrg\OrderItem
+     */
+    public static function orderItem()
     {
         return new OrderItem();
     }
 
-    public static function action(): Action
+    /**
+     * Create Action.
+     *
+     * return \Spatie\SchemaOrg\Action
+     */
+    public static function action()
     {
         return new Action();
     }
 
-    public static function organizeAction(): OrganizeAction
+    /**
+     * Create OrganizeAction.
+     *
+     * return \Spatie\SchemaOrg\OrganizeAction
+     */
+    public static function organizeAction()
     {
         return new OrganizeAction();
     }
 
-    public static function allocateAction(): AllocateAction
+    /**
+     * Create AllocateAction.
+     *
+     * return \Spatie\SchemaOrg\AllocateAction
+     */
+    public static function allocateAction()
     {
         return new AllocateAction();
     }
 
-    public static function acceptAction(): AcceptAction
+    /**
+     * Create AcceptAction.
+     *
+     * return \Spatie\SchemaOrg\AcceptAction
+     */
+    public static function acceptAction()
     {
         return new AcceptAction();
     }
 
-    public static function achieveAction(): AchieveAction
+    /**
+     * Create AchieveAction.
+     *
+     * return \Spatie\SchemaOrg\AchieveAction
+     */
+    public static function achieveAction()
     {
         return new AchieveAction();
     }
 
-    public static function updateAction(): UpdateAction
+    /**
+     * Create UpdateAction.
+     *
+     * return \Spatie\SchemaOrg\UpdateAction
+     */
+    public static function updateAction()
     {
         return new UpdateAction();
     }
 
-    public static function addAction(): AddAction
+    /**
+     * Create AddAction.
+     *
+     * return \Spatie\SchemaOrg\AddAction
+     */
+    public static function addAction()
     {
         return new AddAction();
     }
 
-    public static function assessAction(): AssessAction
+    /**
+     * Create AssessAction.
+     *
+     * return \Spatie\SchemaOrg\AssessAction
+     */
+    public static function assessAction()
     {
         return new AssessAction();
     }
 
-    public static function reactAction(): ReactAction
+    /**
+     * Create ReactAction.
+     *
+     * return \Spatie\SchemaOrg\ReactAction
+     */
+    public static function reactAction()
     {
         return new ReactAction();
     }
 
-    public static function agreeAction(): AgreeAction
+    /**
+     * Create AgreeAction.
+     *
+     * return \Spatie\SchemaOrg\AgreeAction
+     */
+    public static function agreeAction()
     {
         return new AgreeAction();
     }
 
-    public static function insertAction(): InsertAction
+    /**
+     * Create InsertAction.
+     *
+     * return \Spatie\SchemaOrg\InsertAction
+     */
+    public static function insertAction()
     {
         return new InsertAction();
     }
 
-    public static function appendAction(): AppendAction
+    /**
+     * Create AppendAction.
+     *
+     * return \Spatie\SchemaOrg\AppendAction
+     */
+    public static function appendAction()
     {
         return new AppendAction();
     }
 
-    public static function applyAction(): ApplyAction
+    /**
+     * Create ApplyAction.
+     *
+     * return \Spatie\SchemaOrg\ApplyAction
+     */
+    public static function applyAction()
     {
         return new ApplyAction();
     }
 
-    public static function moveAction(): MoveAction
+    /**
+     * Create MoveAction.
+     *
+     * return \Spatie\SchemaOrg\MoveAction
+     */
+    public static function moveAction()
     {
         return new MoveAction();
     }
 
-    public static function arriveAction(): ArriveAction
+    /**
+     * Create ArriveAction.
+     *
+     * return \Spatie\SchemaOrg\ArriveAction
+     */
+    public static function arriveAction()
     {
         return new ArriveAction();
     }
 
-    public static function interactAction(): InteractAction
+    /**
+     * Create InteractAction.
+     *
+     * return \Spatie\SchemaOrg\InteractAction
+     */
+    public static function interactAction()
     {
         return new InteractAction();
     }
 
-    public static function communicateAction(): CommunicateAction
+    /**
+     * Create CommunicateAction.
+     *
+     * return \Spatie\SchemaOrg\CommunicateAction
+     */
+    public static function communicateAction()
     {
         return new CommunicateAction();
     }
 
-    public static function askAction(): AskAction
+    /**
+     * Create AskAction.
+     *
+     * return \Spatie\SchemaOrg\AskAction
+     */
+    public static function askAction()
     {
         return new AskAction();
     }
 
-    public static function assignAction(): AssignAction
+    /**
+     * Create AssignAction.
+     *
+     * return \Spatie\SchemaOrg\AssignAction
+     */
+    public static function assignAction()
     {
         return new AssignAction();
     }
 
-    public static function authorizeAction(): AuthorizeAction
+    /**
+     * Create AuthorizeAction.
+     *
+     * return \Spatie\SchemaOrg\AuthorizeAction
+     */
+    public static function authorizeAction()
     {
         return new AuthorizeAction();
     }
 
-    public static function befriendAction(): BefriendAction
+    /**
+     * Create BefriendAction.
+     *
+     * return \Spatie\SchemaOrg\BefriendAction
+     */
+    public static function befriendAction()
     {
         return new BefriendAction();
     }
 
-    public static function bookmarkAction(): BookmarkAction
+    /**
+     * Create BookmarkAction.
+     *
+     * return \Spatie\SchemaOrg\BookmarkAction
+     */
+    public static function bookmarkAction()
     {
         return new BookmarkAction();
     }
 
-    public static function transferAction(): TransferAction
+    /**
+     * Create TransferAction.
+     *
+     * return \Spatie\SchemaOrg\TransferAction
+     */
+    public static function transferAction()
     {
         return new TransferAction();
     }
 
-    public static function borrowAction(): BorrowAction
+    /**
+     * Create BorrowAction.
+     *
+     * return \Spatie\SchemaOrg\BorrowAction
+     */
+    public static function borrowAction()
     {
         return new BorrowAction();
     }
 
-    public static function tradeAction(): TradeAction
+    /**
+     * Create TradeAction.
+     *
+     * return \Spatie\SchemaOrg\TradeAction
+     */
+    public static function tradeAction()
     {
         return new TradeAction();
     }
 
-    public static function buyAction(): BuyAction
+    /**
+     * Create BuyAction.
+     *
+     * return \Spatie\SchemaOrg\BuyAction
+     */
+    public static function buyAction()
     {
         return new BuyAction();
     }
 
-    public static function planAction(): PlanAction
+    /**
+     * Create PlanAction.
+     *
+     * return \Spatie\SchemaOrg\PlanAction
+     */
+    public static function planAction()
     {
         return new PlanAction();
     }
 
-    public static function cancelAction(): CancelAction
+    /**
+     * Create CancelAction.
+     *
+     * return \Spatie\SchemaOrg\CancelAction
+     */
+    public static function cancelAction()
     {
         return new CancelAction();
     }
 
-    public static function findAction(): FindAction
+    /**
+     * Create FindAction.
+     *
+     * return \Spatie\SchemaOrg\FindAction
+     */
+    public static function findAction()
     {
         return new FindAction();
     }
 
-    public static function checkAction(): CheckAction
+    /**
+     * Create CheckAction.
+     *
+     * return \Spatie\SchemaOrg\CheckAction
+     */
+    public static function checkAction()
     {
         return new CheckAction();
     }
 
-    public static function checkInAction(): CheckInAction
+    /**
+     * Create CheckInAction.
+     *
+     * return \Spatie\SchemaOrg\CheckInAction
+     */
+    public static function checkInAction()
     {
         return new CheckInAction();
     }
 
-    public static function checkOutAction(): CheckOutAction
+    /**
+     * Create CheckOutAction.
+     *
+     * return \Spatie\SchemaOrg\CheckOutAction
+     */
+    public static function checkOutAction()
     {
         return new CheckOutAction();
     }
 
-    public static function chooseAction(): ChooseAction
+    /**
+     * Create ChooseAction.
+     *
+     * return \Spatie\SchemaOrg\ChooseAction
+     */
+    public static function chooseAction()
     {
         return new ChooseAction();
     }
 
-    public static function commentAction(): CommentAction
+    /**
+     * Create CommentAction.
+     *
+     * return \Spatie\SchemaOrg\CommentAction
+     */
+    public static function commentAction()
     {
         return new CommentAction();
     }
 
-    public static function informAction(): InformAction
+    /**
+     * Create InformAction.
+     *
+     * return \Spatie\SchemaOrg\InformAction
+     */
+    public static function informAction()
     {
         return new InformAction();
     }
 
-    public static function confirmAction(): ConfirmAction
+    /**
+     * Create ConfirmAction.
+     *
+     * return \Spatie\SchemaOrg\ConfirmAction
+     */
+    public static function confirmAction()
     {
         return new ConfirmAction();
     }
 
-    public static function consumeAction(): ConsumeAction
+    /**
+     * Create ConsumeAction.
+     *
+     * return \Spatie\SchemaOrg\ConsumeAction
+     */
+    public static function consumeAction()
     {
         return new ConsumeAction();
     }
 
-    public static function createAction(): CreateAction
+    /**
+     * Create CreateAction.
+     *
+     * return \Spatie\SchemaOrg\CreateAction
+     */
+    public static function createAction()
     {
         return new CreateAction();
     }
 
-    public static function cookAction(): CookAction
+    /**
+     * Create CookAction.
+     *
+     * return \Spatie\SchemaOrg\CookAction
+     */
+    public static function cookAction()
     {
         return new CookAction();
     }
 
-    public static function deleteAction(): DeleteAction
+    /**
+     * Create DeleteAction.
+     *
+     * return \Spatie\SchemaOrg\DeleteAction
+     */
+    public static function deleteAction()
     {
         return new DeleteAction();
     }
 
-    public static function departAction(): DepartAction
+    /**
+     * Create DepartAction.
+     *
+     * return \Spatie\SchemaOrg\DepartAction
+     */
+    public static function departAction()
     {
         return new DepartAction();
     }
 
-    public static function disagreeAction(): DisagreeAction
+    /**
+     * Create DisagreeAction.
+     *
+     * return \Spatie\SchemaOrg\DisagreeAction
+     */
+    public static function disagreeAction()
     {
         return new DisagreeAction();
     }
 
-    public static function discoverAction(): DiscoverAction
+    /**
+     * Create DiscoverAction.
+     *
+     * return \Spatie\SchemaOrg\DiscoverAction
+     */
+    public static function discoverAction()
     {
         return new DiscoverAction();
     }
 
-    public static function dislikeAction(): DislikeAction
+    /**
+     * Create DislikeAction.
+     *
+     * return \Spatie\SchemaOrg\DislikeAction
+     */
+    public static function dislikeAction()
     {
         return new DislikeAction();
     }
 
-    public static function donateAction(): DonateAction
+    /**
+     * Create DonateAction.
+     *
+     * return \Spatie\SchemaOrg\DonateAction
+     */
+    public static function donateAction()
     {
         return new DonateAction();
     }
 
-    public static function downloadAction(): DownloadAction
+    /**
+     * Create DownloadAction.
+     *
+     * return \Spatie\SchemaOrg\DownloadAction
+     */
+    public static function downloadAction()
     {
         return new DownloadAction();
     }
 
-    public static function drawAction(): DrawAction
+    /**
+     * Create DrawAction.
+     *
+     * return \Spatie\SchemaOrg\DrawAction
+     */
+    public static function drawAction()
     {
         return new DrawAction();
     }
 
-    public static function drinkAction(): DrinkAction
+    /**
+     * Create DrinkAction.
+     *
+     * return \Spatie\SchemaOrg\DrinkAction
+     */
+    public static function drinkAction()
     {
         return new DrinkAction();
     }
 
-    public static function eatAction(): EatAction
+    /**
+     * Create EatAction.
+     *
+     * return \Spatie\SchemaOrg\EatAction
+     */
+    public static function eatAction()
     {
         return new EatAction();
     }
 
-    public static function endorseAction(): EndorseAction
+    /**
+     * Create EndorseAction.
+     *
+     * return \Spatie\SchemaOrg\EndorseAction
+     */
+    public static function endorseAction()
     {
         return new EndorseAction();
     }
 
-    public static function controlAction(): ControlAction
+    /**
+     * Create ControlAction.
+     *
+     * return \Spatie\SchemaOrg\ControlAction
+     */
+    public static function controlAction()
     {
         return new ControlAction();
     }
 
-    public static function activateAction(): ActivateAction
+    /**
+     * Create ActivateAction.
+     *
+     * return \Spatie\SchemaOrg\ActivateAction
+     */
+    public static function activateAction()
     {
         return new ActivateAction();
     }
 
-    public static function deactivateAction(): DeactivateAction
+    /**
+     * Create DeactivateAction.
+     *
+     * return \Spatie\SchemaOrg\DeactivateAction
+     */
+    public static function deactivateAction()
     {
         return new DeactivateAction();
     }
 
-    public static function resumeAction(): ResumeAction
+    /**
+     * Create ResumeAction.
+     *
+     * return \Spatie\SchemaOrg\ResumeAction
+     */
+    public static function resumeAction()
     {
         return new ResumeAction();
     }
 
-    public static function suspendAction(): SuspendAction
+    /**
+     * Create SuspendAction.
+     *
+     * return \Spatie\SchemaOrg\SuspendAction
+     */
+    public static function suspendAction()
     {
         return new SuspendAction();
     }
 
-    public static function playAction(): PlayAction
+    /**
+     * Create PlayAction.
+     *
+     * return \Spatie\SchemaOrg\PlayAction
+     */
+    public static function playAction()
     {
         return new PlayAction();
     }
 
-    public static function exerciseAction(): ExerciseAction
+    /**
+     * Create ExerciseAction.
+     *
+     * return \Spatie\SchemaOrg\ExerciseAction
+     */
+    public static function exerciseAction()
     {
         return new ExerciseAction();
     }
 
-    public static function filmAction(): FilmAction
+    /**
+     * Create FilmAction.
+     *
+     * return \Spatie\SchemaOrg\FilmAction
+     */
+    public static function filmAction()
     {
         return new FilmAction();
     }
 
-    public static function followAction(): FollowAction
+    /**
+     * Create FollowAction.
+     *
+     * return \Spatie\SchemaOrg\FollowAction
+     */
+    public static function followAction()
     {
         return new FollowAction();
     }
 
-    public static function giveAction(): GiveAction
+    /**
+     * Create GiveAction.
+     *
+     * return \Spatie\SchemaOrg\GiveAction
+     */
+    public static function giveAction()
     {
         return new GiveAction();
     }
 
-    public static function ignoreAction(): IgnoreAction
+    /**
+     * Create IgnoreAction.
+     *
+     * return \Spatie\SchemaOrg\IgnoreAction
+     */
+    public static function ignoreAction()
     {
         return new IgnoreAction();
     }
 
-    public static function installAction(): InstallAction
+    /**
+     * Create InstallAction.
+     *
+     * return \Spatie\SchemaOrg\InstallAction
+     */
+    public static function installAction()
     {
         return new InstallAction();
     }
 
-    public static function inviteAction(): InviteAction
+    /**
+     * Create InviteAction.
+     *
+     * return \Spatie\SchemaOrg\InviteAction
+     */
+    public static function inviteAction()
     {
         return new InviteAction();
     }
 
-    public static function joinAction(): JoinAction
+    /**
+     * Create JoinAction.
+     *
+     * return \Spatie\SchemaOrg\JoinAction
+     */
+    public static function joinAction()
     {
         return new JoinAction();
     }
 
-    public static function leaveAction(): LeaveAction
+    /**
+     * Create LeaveAction.
+     *
+     * return \Spatie\SchemaOrg\LeaveAction
+     */
+    public static function leaveAction()
     {
         return new LeaveAction();
     }
 
-    public static function lendAction(): LendAction
+    /**
+     * Create LendAction.
+     *
+     * return \Spatie\SchemaOrg\LendAction
+     */
+    public static function lendAction()
     {
         return new LendAction();
     }
 
-    public static function likeAction(): LikeAction
+    /**
+     * Create LikeAction.
+     *
+     * return \Spatie\SchemaOrg\LikeAction
+     */
+    public static function likeAction()
     {
         return new LikeAction();
     }
 
-    public static function listenAction(): ListenAction
+    /**
+     * Create ListenAction.
+     *
+     * return \Spatie\SchemaOrg\ListenAction
+     */
+    public static function listenAction()
     {
         return new ListenAction();
     }
 
-    public static function loseAction(): LoseAction
+    /**
+     * Create LoseAction.
+     *
+     * return \Spatie\SchemaOrg\LoseAction
+     */
+    public static function loseAction()
     {
         return new LoseAction();
     }
 
-    public static function marryAction(): MarryAction
+    /**
+     * Create MarryAction.
+     *
+     * return \Spatie\SchemaOrg\MarryAction
+     */
+    public static function marryAction()
     {
         return new MarryAction();
     }
 
-    public static function orderAction(): OrderAction
+    /**
+     * Create OrderAction.
+     *
+     * return \Spatie\SchemaOrg\OrderAction
+     */
+    public static function orderAction()
     {
         return new OrderAction();
     }
 
-    public static function paintAction(): PaintAction
+    /**
+     * Create PaintAction.
+     *
+     * return \Spatie\SchemaOrg\PaintAction
+     */
+    public static function paintAction()
     {
         return new PaintAction();
     }
 
-    public static function payAction(): PayAction
+    /**
+     * Create PayAction.
+     *
+     * return \Spatie\SchemaOrg\PayAction
+     */
+    public static function payAction()
     {
         return new PayAction();
     }
 
-    public static function performAction(): PerformAction
+    /**
+     * Create PerformAction.
+     *
+     * return \Spatie\SchemaOrg\PerformAction
+     */
+    public static function performAction()
     {
         return new PerformAction();
     }
 
-    public static function photographAction(): PhotographAction
+    /**
+     * Create PhotographAction.
+     *
+     * return \Spatie\SchemaOrg\PhotographAction
+     */
+    public static function photographAction()
     {
         return new PhotographAction();
     }
 
-    public static function prependAction(): PrependAction
+    /**
+     * Create PrependAction.
+     *
+     * return \Spatie\SchemaOrg\PrependAction
+     */
+    public static function prependAction()
     {
         return new PrependAction();
     }
 
-    public static function quoteAction(): QuoteAction
+    /**
+     * Create QuoteAction.
+     *
+     * return \Spatie\SchemaOrg\QuoteAction
+     */
+    public static function quoteAction()
     {
         return new QuoteAction();
     }
 
-    public static function readAction(): ReadAction
+    /**
+     * Create ReadAction.
+     *
+     * return \Spatie\SchemaOrg\ReadAction
+     */
+    public static function readAction()
     {
         return new ReadAction();
     }
 
-    public static function receiveAction(): ReceiveAction
+    /**
+     * Create ReceiveAction.
+     *
+     * return \Spatie\SchemaOrg\ReceiveAction
+     */
+    public static function receiveAction()
     {
         return new ReceiveAction();
     }
 
-    public static function registerAction(): RegisterAction
+    /**
+     * Create RegisterAction.
+     *
+     * return \Spatie\SchemaOrg\RegisterAction
+     */
+    public static function registerAction()
     {
         return new RegisterAction();
     }
 
-    public static function rejectAction(): RejectAction
+    /**
+     * Create RejectAction.
+     *
+     * return \Spatie\SchemaOrg\RejectAction
+     */
+    public static function rejectAction()
     {
         return new RejectAction();
     }
 
-    public static function rentAction(): RentAction
+    /**
+     * Create RentAction.
+     *
+     * return \Spatie\SchemaOrg\RentAction
+     */
+    public static function rentAction()
     {
         return new RentAction();
     }
 
-    public static function replaceAction(): ReplaceAction
+    /**
+     * Create ReplaceAction.
+     *
+     * return \Spatie\SchemaOrg\ReplaceAction
+     */
+    public static function replaceAction()
     {
         return new ReplaceAction();
     }
 
-    public static function replyAction(): ReplyAction
+    /**
+     * Create ReplyAction.
+     *
+     * return \Spatie\SchemaOrg\ReplyAction
+     */
+    public static function replyAction()
     {
         return new ReplyAction();
     }
 
-    public static function reserveAction(): ReserveAction
+    /**
+     * Create ReserveAction.
+     *
+     * return \Spatie\SchemaOrg\ReserveAction
+     */
+    public static function reserveAction()
     {
         return new ReserveAction();
     }
 
-    public static function returnAction(): ReturnAction
+    /**
+     * Create ReturnAction.
+     *
+     * return \Spatie\SchemaOrg\ReturnAction
+     */
+    public static function returnAction()
     {
         return new ReturnAction();
     }
 
-    public static function reviewAction(): ReviewAction
+    /**
+     * Create ReviewAction.
+     *
+     * return \Spatie\SchemaOrg\ReviewAction
+     */
+    public static function reviewAction()
     {
         return new ReviewAction();
     }
 
-    public static function rsvpAction(): RsvpAction
+    /**
+     * Create RsvpAction.
+     *
+     * return \Spatie\SchemaOrg\RsvpAction
+     */
+    public static function rsvpAction()
     {
         return new RsvpAction();
     }
 
-    public static function rsvpResponseType(): RsvpResponseType
+    /**
+     * Create RsvpResponseType.
+     *
+     * return \Spatie\SchemaOrg\RsvpResponseType
+     */
+    public static function rsvpResponseType()
     {
         return new RsvpResponseType();
     }
 
-    public static function scheduleAction(): ScheduleAction
+    /**
+     * Create ScheduleAction.
+     *
+     * return \Spatie\SchemaOrg\ScheduleAction
+     */
+    public static function scheduleAction()
     {
         return new ScheduleAction();
     }
 
-    public static function searchAction(): SearchAction
+    /**
+     * Create SearchAction.
+     *
+     * return \Spatie\SchemaOrg\SearchAction
+     */
+    public static function searchAction()
     {
         return new SearchAction();
     }
 
-    public static function sellAction(): SellAction
+    /**
+     * Create SellAction.
+     *
+     * return \Spatie\SchemaOrg\SellAction
+     */
+    public static function sellAction()
     {
         return new SellAction();
     }
 
-    public static function sendAction(): SendAction
+    /**
+     * Create SendAction.
+     *
+     * return \Spatie\SchemaOrg\SendAction
+     */
+    public static function sendAction()
     {
         return new SendAction();
     }
 
-    public static function shareAction(): ShareAction
+    /**
+     * Create ShareAction.
+     *
+     * return \Spatie\SchemaOrg\ShareAction
+     */
+    public static function shareAction()
     {
         return new ShareAction();
     }
 
-    public static function subscribeAction(): SubscribeAction
+    /**
+     * Create SubscribeAction.
+     *
+     * return \Spatie\SchemaOrg\SubscribeAction
+     */
+    public static function subscribeAction()
     {
         return new SubscribeAction();
     }
 
-    public static function takeAction(): TakeAction
+    /**
+     * Create TakeAction.
+     *
+     * return \Spatie\SchemaOrg\TakeAction
+     */
+    public static function takeAction()
     {
         return new TakeAction();
     }
 
-    public static function tieAction(): TieAction
+    /**
+     * Create TieAction.
+     *
+     * return \Spatie\SchemaOrg\TieAction
+     */
+    public static function tieAction()
     {
         return new TieAction();
     }
 
-    public static function tipAction(): TipAction
+    /**
+     * Create TipAction.
+     *
+     * return \Spatie\SchemaOrg\TipAction
+     */
+    public static function tipAction()
     {
         return new TipAction();
     }
 
-    public static function trackAction(): TrackAction
+    /**
+     * Create TrackAction.
+     *
+     * return \Spatie\SchemaOrg\TrackAction
+     */
+    public static function trackAction()
     {
         return new TrackAction();
     }
 
-    public static function travelAction(): TravelAction
+    /**
+     * Create TravelAction.
+     *
+     * return \Spatie\SchemaOrg\TravelAction
+     */
+    public static function travelAction()
     {
         return new TravelAction();
     }
 
-    public static function unRegisterAction(): UnRegisterAction
+    /**
+     * Create UnRegisterAction.
+     *
+     * return \Spatie\SchemaOrg\UnRegisterAction
+     */
+    public static function unRegisterAction()
     {
         return new UnRegisterAction();
     }
 
-    public static function useAction(): UseAction
+    /**
+     * Create UseAction.
+     *
+     * return \Spatie\SchemaOrg\UseAction
+     */
+    public static function useAction()
     {
         return new UseAction();
     }
 
-    public static function viewAction(): ViewAction
+    /**
+     * Create ViewAction.
+     *
+     * return \Spatie\SchemaOrg\ViewAction
+     */
+    public static function viewAction()
     {
         return new ViewAction();
     }
 
-    public static function voteAction(): VoteAction
+    /**
+     * Create VoteAction.
+     *
+     * return \Spatie\SchemaOrg\VoteAction
+     */
+    public static function voteAction()
     {
         return new VoteAction();
     }
 
-    public static function wantAction(): WantAction
+    /**
+     * Create WantAction.
+     *
+     * return \Spatie\SchemaOrg\WantAction
+     */
+    public static function wantAction()
     {
         return new WantAction();
     }
 
-    public static function watchAction(): WatchAction
+    /**
+     * Create WatchAction.
+     *
+     * return \Spatie\SchemaOrg\WatchAction
+     */
+    public static function watchAction()
     {
         return new WatchAction();
     }
 
-    public static function wearAction(): WearAction
+    /**
+     * Create WearAction.
+     *
+     * return \Spatie\SchemaOrg\WearAction
+     */
+    public static function wearAction()
     {
         return new WearAction();
     }
 
-    public static function winAction(): WinAction
+    /**
+     * Create WinAction.
+     *
+     * return \Spatie\SchemaOrg\WinAction
+     */
+    public static function winAction()
     {
         return new WinAction();
     }
 
-    public static function writeAction(): WriteAction
+    /**
+     * Create WriteAction.
+     *
+     * return \Spatie\SchemaOrg\WriteAction
+     */
+    public static function writeAction()
     {
         return new WriteAction();
     }
 
-    public static function genderType(): GenderType
+    /**
+     * Create GenderType.
+     *
+     * return \Spatie\SchemaOrg\GenderType
+     */
+    public static function genderType()
     {
         return new GenderType();
     }
 
-    public static function itemListOrderType(): ItemListOrderType
+    /**
+     * Create ItemListOrderType.
+     *
+     * return \Spatie\SchemaOrg\ItemListOrderType
+     */
+    public static function itemListOrderType()
     {
         return new ItemListOrderType();
     }
 
-    public static function reservation(): Reservation
+    /**
+     * Create Reservation.
+     *
+     * return \Spatie\SchemaOrg\Reservation
+     */
+    public static function reservation()
     {
         return new Reservation();
     }
 
-    public static function busReservation(): BusReservation
+    /**
+     * Create BusReservation.
+     *
+     * return \Spatie\SchemaOrg\BusReservation
+     */
+    public static function busReservation()
     {
         return new BusReservation();
     }
 
-    public static function eventReservation(): EventReservation
+    /**
+     * Create EventReservation.
+     *
+     * return \Spatie\SchemaOrg\EventReservation
+     */
+    public static function eventReservation()
     {
         return new EventReservation();
     }
 
-    public static function flightReservation(): FlightReservation
+    /**
+     * Create FlightReservation.
+     *
+     * return \Spatie\SchemaOrg\FlightReservation
+     */
+    public static function flightReservation()
     {
         return new FlightReservation();
     }
 
-    public static function foodEstablishmentReservation(): FoodEstablishmentReservation
+    /**
+     * Create FoodEstablishmentReservation.
+     *
+     * return \Spatie\SchemaOrg\FoodEstablishmentReservation
+     */
+    public static function foodEstablishmentReservation()
     {
         return new FoodEstablishmentReservation();
     }
 
-    public static function lodgingReservation(): LodgingReservation
+    /**
+     * Create LodgingReservation.
+     *
+     * return \Spatie\SchemaOrg\LodgingReservation
+     */
+    public static function lodgingReservation()
     {
         return new LodgingReservation();
     }
 
-    public static function rentalCarReservation(): RentalCarReservation
+    /**
+     * Create RentalCarReservation.
+     *
+     * return \Spatie\SchemaOrg\RentalCarReservation
+     */
+    public static function rentalCarReservation()
     {
         return new RentalCarReservation();
     }
 
-    public static function taxiReservation(): TaxiReservation
+    /**
+     * Create TaxiReservation.
+     *
+     * return \Spatie\SchemaOrg\TaxiReservation
+     */
+    public static function taxiReservation()
     {
         return new TaxiReservation();
     }
 
-    public static function trainReservation(): TrainReservation
+    /**
+     * Create TrainReservation.
+     *
+     * return \Spatie\SchemaOrg\TrainReservation
+     */
+    public static function trainReservation()
     {
         return new TrainReservation();
     }
 
-    public static function reservationPackage(): ReservationPackage
+    /**
+     * Create ReservationPackage.
+     *
+     * return \Spatie\SchemaOrg\ReservationPackage
+     */
+    public static function reservationPackage()
     {
         return new ReservationPackage();
     }
 
-    public static function reservationStatusType(): ReservationStatusType
+    /**
+     * Create ReservationStatusType.
+     *
+     * return \Spatie\SchemaOrg\ReservationStatusType
+     */
+    public static function reservationStatusType()
     {
         return new ReservationStatusType();
     }
 
-    public static function busTrip(): BusTrip
+    /**
+     * Create BusTrip.
+     *
+     * return \Spatie\SchemaOrg\BusTrip
+     */
+    public static function busTrip()
     {
         return new BusTrip();
     }
 
-    public static function trainTrip(): TrainTrip
+    /**
+     * Create TrainTrip.
+     *
+     * return \Spatie\SchemaOrg\TrainTrip
+     */
+    public static function trainTrip()
     {
         return new TrainTrip();
     }
 
-    public static function flight(): Flight
+    /**
+     * Create Flight.
+     *
+     * return \Spatie\SchemaOrg\Flight
+     */
+    public static function flight()
     {
         return new Flight();
     }
 
-    public static function airline(): Airline
+    /**
+     * Create Airline.
+     *
+     * return \Spatie\SchemaOrg\Airline
+     */
+    public static function airline()
     {
         return new Airline();
     }
 
-    public static function programMembership(): ProgramMembership
+    /**
+     * Create ProgramMembership.
+     *
+     * return \Spatie\SchemaOrg\ProgramMembership
+     */
+    public static function programMembership()
     {
         return new ProgramMembership();
     }
 
-    public static function ticket(): Ticket
+    /**
+     * Create Ticket.
+     *
+     * return \Spatie\SchemaOrg\Ticket
+     */
+    public static function ticket()
     {
         return new Ticket();
     }
 
-    public static function seat(): Seat
+    /**
+     * Create Seat.
+     *
+     * return \Spatie\SchemaOrg\Seat
+     */
+    public static function seat()
     {
         return new Seat();
     }
 
-    public static function taxi(): Taxi
+    /**
+     * Create Taxi.
+     *
+     * return \Spatie\SchemaOrg\Taxi
+     */
+    public static function taxi()
     {
         return new Taxi();
     }
 
-    public static function taxiService(): TaxiService
+    /**
+     * Create TaxiService.
+     *
+     * return \Spatie\SchemaOrg\TaxiService
+     */
+    public static function taxiService()
     {
         return new TaxiService();
     }
 
-    public static function vehicle(): Vehicle
+    /**
+     * Create Vehicle.
+     *
+     * return \Spatie\SchemaOrg\Vehicle
+     */
+    public static function vehicle()
     {
         return new Vehicle();
     }
 
-    public static function car(): Car
+    /**
+     * Create Car.
+     *
+     * return \Spatie\SchemaOrg\Car
+     */
+    public static function car()
     {
         return new Car();
     }
 
-    public static function boardingPolicyType(): BoardingPolicyType
+    /**
+     * Create BoardingPolicyType.
+     *
+     * return \Spatie\SchemaOrg\BoardingPolicyType
+     */
+    public static function boardingPolicyType()
     {
         return new BoardingPolicyType();
     }
 
-    public static function qAPage(): QAPage
+    /**
+     * Create QAPage.
+     *
+     * return \Spatie\SchemaOrg\QAPage
+     */
+    public static function qAPage()
     {
         return new QAPage();
     }
 
-    public static function question(): Question
+    /**
+     * Create Question.
+     *
+     * return \Spatie\SchemaOrg\Question
+     */
+    public static function question()
     {
         return new Question();
     }
 
-    public static function answer(): Answer
+    /**
+     * Create Answer.
+     *
+     * return \Spatie\SchemaOrg\Answer
+     */
+    public static function answer()
     {
         return new Answer();
     }
 
-    public static function emailMessage(): EmailMessage
+    /**
+     * Create EmailMessage.
+     *
+     * return \Spatie\SchemaOrg\EmailMessage
+     */
+    public static function emailMessage()
     {
         return new EmailMessage();
     }
 
-    public static function actionStatusType(): ActionStatusType
+    /**
+     * Create ActionStatusType.
+     *
+     * return \Spatie\SchemaOrg\ActionStatusType
+     */
+    public static function actionStatusType()
     {
         return new ActionStatusType();
     }
 
-    public static function entryPoint(): EntryPoint
+    /**
+     * Create EntryPoint.
+     *
+     * return \Spatie\SchemaOrg\EntryPoint
+     */
+    public static function entryPoint()
     {
         return new EntryPoint();
     }
 
-    public static function propertyValueSpecification(): PropertyValueSpecification
+    /**
+     * Create PropertyValueSpecification.
+     *
+     * return \Spatie\SchemaOrg\PropertyValueSpecification
+     */
+    public static function propertyValueSpecification()
     {
         return new PropertyValueSpecification();
     }
 
-    public static function role(): Role
+    /**
+     * Create Role.
+     *
+     * return \Spatie\SchemaOrg\Role
+     */
+    public static function role()
     {
         return new Role();
     }
 
-    public static function performanceRole(): PerformanceRole
+    /**
+     * Create PerformanceRole.
+     *
+     * return \Spatie\SchemaOrg\PerformanceRole
+     */
+    public static function performanceRole()
     {
         return new PerformanceRole();
     }
 
-    public static function organizationRole(): OrganizationRole
+    /**
+     * Create OrganizationRole.
+     *
+     * return \Spatie\SchemaOrg\OrganizationRole
+     */
+    public static function organizationRole()
     {
         return new OrganizationRole();
     }
 
-    public static function employeeRole(): EmployeeRole
+    /**
+     * Create EmployeeRole.
+     *
+     * return \Spatie\SchemaOrg\EmployeeRole
+     */
+    public static function employeeRole()
     {
         return new EmployeeRole();
     }
 
-    public static function webSite(): WebSite
+    /**
+     * Create WebSite.
+     *
+     * return \Spatie\SchemaOrg\WebSite
+     */
+    public static function webSite()
     {
         return new WebSite();
     }
 
-    public static function periodical(): Periodical
+    /**
+     * Create Periodical.
+     *
+     * return \Spatie\SchemaOrg\Periodical
+     */
+    public static function periodical()
     {
         return new Periodical();
     }
 
-    public static function publicationVolume(): PublicationVolume
+    /**
+     * Create PublicationVolume.
+     *
+     * return \Spatie\SchemaOrg\PublicationVolume
+     */
+    public static function publicationVolume()
     {
         return new PublicationVolume();
     }
 
-    public static function publicationIssue(): PublicationIssue
+    /**
+     * Create PublicationIssue.
+     *
+     * return \Spatie\SchemaOrg\PublicationIssue
+     */
+    public static function publicationIssue()
     {
         return new PublicationIssue();
     }
 
-    public static function listItem(): ListItem
+    /**
+     * Create ListItem.
+     *
+     * return \Spatie\SchemaOrg\ListItem
+     */
+    public static function listItem()
     {
         return new ListItem();
     }
 
-    public static function movieSeries(): MovieSeries
+    /**
+     * Create MovieSeries.
+     *
+     * return \Spatie\SchemaOrg\MovieSeries
+     */
+    public static function movieSeries()
     {
         return new MovieSeries();
     }
 
-    public static function bookSeries(): BookSeries
+    /**
+     * Create BookSeries.
+     *
+     * return \Spatie\SchemaOrg\BookSeries
+     */
+    public static function bookSeries()
     {
         return new BookSeries();
     }
 
-    public static function videoGame(): VideoGame
+    /**
+     * Create VideoGame.
+     *
+     * return \Spatie\SchemaOrg\VideoGame
+     */
+    public static function videoGame()
     {
         return new VideoGame();
     }
 
-    public static function videoGameClip(): VideoGameClip
+    /**
+     * Create VideoGameClip.
+     *
+     * return \Spatie\SchemaOrg\VideoGameClip
+     */
+    public static function videoGameClip()
     {
         return new VideoGameClip();
     }
 
-    public static function gameServer(): GameServer
+    /**
+     * Create GameServer.
+     *
+     * return \Spatie\SchemaOrg\GameServer
+     */
+    public static function gameServer()
     {
         return new GameServer();
     }
 
-    public static function game(): Game
+    /**
+     * Create Game.
+     *
+     * return \Spatie\SchemaOrg\Game
+     */
+    public static function game()
     {
         return new Game();
     }
 
-    public static function gamePlayMode(): GamePlayMode
+    /**
+     * Create GamePlayMode.
+     *
+     * return \Spatie\SchemaOrg\GamePlayMode
+     */
+    public static function gamePlayMode()
     {
         return new GamePlayMode();
     }
 
-    public static function gameServerStatus(): GameServerStatus
+    /**
+     * Create GameServerStatus.
+     *
+     * return \Spatie\SchemaOrg\GameServerStatus
+     */
+    public static function gameServerStatus()
     {
         return new GameServerStatus();
     }
 
-    public static function musicAlbumProductionType(): MusicAlbumProductionType
+    /**
+     * Create MusicAlbumProductionType.
+     *
+     * return \Spatie\SchemaOrg\MusicAlbumProductionType
+     */
+    public static function musicAlbumProductionType()
     {
         return new MusicAlbumProductionType();
     }
 
-    public static function musicAlbumReleaseType(): MusicAlbumReleaseType
+    /**
+     * Create MusicAlbumReleaseType.
+     *
+     * return \Spatie\SchemaOrg\MusicAlbumReleaseType
+     */
+    public static function musicAlbumReleaseType()
     {
         return new MusicAlbumReleaseType();
     }
 
-    public static function musicComposition(): MusicComposition
+    /**
+     * Create MusicComposition.
+     *
+     * return \Spatie\SchemaOrg\MusicComposition
+     */
+    public static function musicComposition()
     {
         return new MusicComposition();
     }
 
-    public static function musicRelease(): MusicRelease
+    /**
+     * Create MusicRelease.
+     *
+     * return \Spatie\SchemaOrg\MusicRelease
+     */
+    public static function musicRelease()
     {
         return new MusicRelease();
     }
 
-    public static function musicReleaseFormatType(): MusicReleaseFormatType
+    /**
+     * Create MusicReleaseFormatType.
+     *
+     * return \Spatie\SchemaOrg\MusicReleaseFormatType
+     */
+    public static function musicReleaseFormatType()
     {
         return new MusicReleaseFormatType();
     }
 
-    public static function sportsOrganization(): SportsOrganization
+    /**
+     * Create SportsOrganization.
+     *
+     * return \Spatie\SchemaOrg\SportsOrganization
+     */
+    public static function sportsOrganization()
     {
         return new SportsOrganization();
     }
 
-    public static function datedMoneySpecification(): DatedMoneySpecification
+    /**
+     * Create DatedMoneySpecification.
+     *
+     * return \Spatie\SchemaOrg\DatedMoneySpecification
+     */
+    public static function datedMoneySpecification()
     {
         return new DatedMoneySpecification();
     }
 
-    public static function visualArtwork(): VisualArtwork
+    /**
+     * Create VisualArtwork.
+     *
+     * return \Spatie\SchemaOrg\VisualArtwork
+     */
+    public static function visualArtwork()
     {
         return new VisualArtwork();
     }
 
-    public static function invoice(): Invoice
+    /**
+     * Create Invoice.
+     *
+     * return \Spatie\SchemaOrg\Invoice
+     */
+    public static function invoice()
     {
         return new Invoice();
     }
 
-    public static function propertyValue(): PropertyValue
+    /**
+     * Create PropertyValue.
+     *
+     * return \Spatie\SchemaOrg\PropertyValue
+     */
+    public static function propertyValue()
     {
         return new PropertyValue();
     }
 
-    public static function cableOrSatelliteService(): CableOrSatelliteService
+    /**
+     * Create CableOrSatelliteService.
+     *
+     * return \Spatie\SchemaOrg\CableOrSatelliteService
+     */
+    public static function cableOrSatelliteService()
     {
         return new CableOrSatelliteService();
     }
 
-    public static function broadcastChannel(): BroadcastChannel
+    /**
+     * Create BroadcastChannel.
+     *
+     * return \Spatie\SchemaOrg\BroadcastChannel
+     */
+    public static function broadcastChannel()
     {
         return new BroadcastChannel();
     }
 
-    public static function televisionChannel(): TelevisionChannel
+    /**
+     * Create TelevisionChannel.
+     *
+     * return \Spatie\SchemaOrg\TelevisionChannel
+     */
+    public static function televisionChannel()
     {
         return new TelevisionChannel();
     }
 
-    public static function radioChannel(): RadioChannel
+    /**
+     * Create RadioChannel.
+     *
+     * return \Spatie\SchemaOrg\RadioChannel
+     */
+    public static function radioChannel()
     {
         return new RadioChannel();
     }
 
-    public static function engineSpecification(): EngineSpecification
+    /**
+     * Create EngineSpecification.
+     *
+     * return \Spatie\SchemaOrg\EngineSpecification
+     */
+    public static function engineSpecification()
     {
         return new EngineSpecification();
     }
 
-    public static function bridge(): Bridge
+    /**
+     * Create Bridge.
+     *
+     * return \Spatie\SchemaOrg\Bridge
+     */
+    public static function bridge()
     {
         return new Bridge();
     }
 
-    public static function driveWheelConfigurationValue(): DriveWheelConfigurationValue
+    /**
+     * Create DriveWheelConfigurationValue.
+     *
+     * return \Spatie\SchemaOrg\DriveWheelConfigurationValue
+     */
+    public static function driveWheelConfigurationValue()
     {
         return new DriveWheelConfigurationValue();
     }
 
-    public static function steeringPositionValue(): SteeringPositionValue
+    /**
+     * Create SteeringPositionValue.
+     *
+     * return \Spatie\SchemaOrg\SteeringPositionValue
+     */
+    public static function steeringPositionValue()
     {
         return new SteeringPositionValue();
     }
 
-    public static function interactionCounter(): InteractionCounter
+    /**
+     * Create InteractionCounter.
+     *
+     * return \Spatie\SchemaOrg\InteractionCounter
+     */
+    public static function interactionCounter()
     {
         return new InteractionCounter();
     }
 
-    public static function socialMediaPosting(): SocialMediaPosting
+    /**
+     * Create SocialMediaPosting.
+     *
+     * return \Spatie\SchemaOrg\SocialMediaPosting
+     */
+    public static function socialMediaPosting()
     {
         return new SocialMediaPosting();
     }
 
-    public static function discussionForumPosting(): DiscussionForumPosting
+    /**
+     * Create DiscussionForumPosting.
+     *
+     * return \Spatie\SchemaOrg\DiscussionForumPosting
+     */
+    public static function discussionForumPosting()
     {
         return new DiscussionForumPosting();
     }
 
-    public static function liveBlogPosting(): LiveBlogPosting
+    /**
+     * Create LiveBlogPosting.
+     *
+     * return \Spatie\SchemaOrg\LiveBlogPosting
+     */
+    public static function liveBlogPosting()
     {
         return new LiveBlogPosting();
     }
 
-    public static function paymentStatusType(): PaymentStatusType
+    /**
+     * Create PaymentStatusType.
+     *
+     * return \Spatie\SchemaOrg\PaymentStatusType
+     */
+    public static function paymentStatusType()
     {
         return new PaymentStatusType();
     }
 
-    public static function report(): Report
+    /**
+     * Create Report.
+     *
+     * return \Spatie\SchemaOrg\Report
+     */
+    public static function report()
     {
         return new Report();
     }
 
-    public static function enumeration(): Enumeration
+    /**
+     * Create Enumeration.
+     *
+     * return \Spatie\SchemaOrg\Enumeration
+     */
+    public static function enumeration()
     {
         return new Enumeration();
     }
 
-    public static function nutritionInformation(): NutritionInformation
+    /**
+     * Create NutritionInformation.
+     *
+     * return \Spatie\SchemaOrg\NutritionInformation
+     */
+    public static function nutritionInformation()
     {
         return new NutritionInformation();
     }
 
-    public static function recipe(): Recipe
+    /**
+     * Create Recipe.
+     *
+     * return \Spatie\SchemaOrg\Recipe
+     */
+    public static function recipe()
     {
         return new Recipe();
     }
 
-    public static function dataFeed(): DataFeed
+    /**
+     * Create DataFeed.
+     *
+     * return \Spatie\SchemaOrg\DataFeed
+     */
+    public static function dataFeed()
     {
         return new DataFeed();
     }
 
-    public static function dataFeedItem(): DataFeedItem
+    /**
+     * Create DataFeedItem.
+     *
+     * return \Spatie\SchemaOrg\DataFeedItem
+     */
+    public static function dataFeedItem()
     {
         return new DataFeedItem();
     }
 
-    public static function compoundPriceSpecification(): CompoundPriceSpecification
+    /**
+     * Create CompoundPriceSpecification.
+     *
+     * return \Spatie\SchemaOrg\CompoundPriceSpecification
+     */
+    public static function compoundPriceSpecification()
     {
         return new CompoundPriceSpecification();
     }
 
-    public static function monetaryAmount(): MonetaryAmount
+    /**
+     * Create MonetaryAmount.
+     *
+     * return \Spatie\SchemaOrg\MonetaryAmount
+     */
+    public static function monetaryAmount()
     {
         return new MonetaryAmount();
     }
 
-    public static function financialProduct(): FinancialProduct
+    /**
+     * Create FinancialProduct.
+     *
+     * return \Spatie\SchemaOrg\FinancialProduct
+     */
+    public static function financialProduct()
     {
         return new FinancialProduct();
     }
 
-    public static function bankAccount(): BankAccount
+    /**
+     * Create BankAccount.
+     *
+     * return \Spatie\SchemaOrg\BankAccount
+     */
+    public static function bankAccount()
     {
         return new BankAccount();
     }
 
-    public static function depositAccount(): DepositAccount
+    /**
+     * Create DepositAccount.
+     *
+     * return \Spatie\SchemaOrg\DepositAccount
+     */
+    public static function depositAccount()
     {
         return new DepositAccount();
     }
 
-    public static function loanOrCredit(): LoanOrCredit
+    /**
+     * Create LoanOrCredit.
+     *
+     * return \Spatie\SchemaOrg\LoanOrCredit
+     */
+    public static function loanOrCredit()
     {
         return new LoanOrCredit();
     }
 
-    public static function paymentCard(): PaymentCard
+    /**
+     * Create PaymentCard.
+     *
+     * return \Spatie\SchemaOrg\PaymentCard
+     */
+    public static function paymentCard()
     {
         return new PaymentCard();
     }
 
-    public static function investmentOrDeposit(): InvestmentOrDeposit
+    /**
+     * Create InvestmentOrDeposit.
+     *
+     * return \Spatie\SchemaOrg\InvestmentOrDeposit
+     */
+    public static function investmentOrDeposit()
     {
         return new InvestmentOrDeposit();
     }
 
-    public static function paymentService(): PaymentService
+    /**
+     * Create PaymentService.
+     *
+     * return \Spatie\SchemaOrg\PaymentService
+     */
+    public static function paymentService()
     {
         return new PaymentService();
     }
 
-    public static function currencyConversionService(): CurrencyConversionService
+    /**
+     * Create CurrencyConversionService.
+     *
+     * return \Spatie\SchemaOrg\CurrencyConversionService
+     */
+    public static function currencyConversionService()
     {
         return new CurrencyConversionService();
     }
 
-    public static function conversation(): Conversation
+    /**
+     * Create Conversation.
+     *
+     * return \Spatie\SchemaOrg\Conversation
+     */
+    public static function conversation()
     {
         return new Conversation();
     }
 
-    public static function message(): Message
+    /**
+     * Create Message.
+     *
+     * return \Spatie\SchemaOrg\Message
+     */
+    public static function message()
     {
         return new Message();
     }
 
-    public static function digitalDocument(): DigitalDocument
+    /**
+     * Create DigitalDocument.
+     *
+     * return \Spatie\SchemaOrg\DigitalDocument
+     */
+    public static function digitalDocument()
     {
         return new DigitalDocument();
     }
 
-    public static function presentationDigitalDocument(): PresentationDigitalDocument
+    /**
+     * Create PresentationDigitalDocument.
+     *
+     * return \Spatie\SchemaOrg\PresentationDigitalDocument
+     */
+    public static function presentationDigitalDocument()
     {
         return new PresentationDigitalDocument();
     }
 
-    public static function spreadsheetDigitalDocument(): SpreadsheetDigitalDocument
+    /**
+     * Create SpreadsheetDigitalDocument.
+     *
+     * return \Spatie\SchemaOrg\SpreadsheetDigitalDocument
+     */
+    public static function spreadsheetDigitalDocument()
     {
         return new SpreadsheetDigitalDocument();
     }
 
-    public static function textDigitalDocument(): TextDigitalDocument
+    /**
+     * Create TextDigitalDocument.
+     *
+     * return \Spatie\SchemaOrg\TextDigitalDocument
+     */
+    public static function textDigitalDocument()
     {
         return new TextDigitalDocument();
     }
 
-    public static function noteDigitalDocument(): NoteDigitalDocument
+    /**
+     * Create NoteDigitalDocument.
+     *
+     * return \Spatie\SchemaOrg\NoteDigitalDocument
+     */
+    public static function noteDigitalDocument()
     {
         return new NoteDigitalDocument();
     }
 
-    public static function digitalDocumentPermission(): DigitalDocumentPermission
+    /**
+     * Create DigitalDocumentPermission.
+     *
+     * return \Spatie\SchemaOrg\DigitalDocumentPermission
+     */
+    public static function digitalDocumentPermission()
     {
         return new DigitalDocumentPermission();
     }
 
-    public static function digitalDocumentPermissionType(): DigitalDocumentPermissionType
+    /**
+     * Create DigitalDocumentPermissionType.
+     *
+     * return \Spatie\SchemaOrg\DigitalDocumentPermissionType
+     */
+    public static function digitalDocumentPermissionType()
     {
         return new DigitalDocumentPermissionType();
     }
 
-    public static function resort(): Resort
+    /**
+     * Create Resort.
+     *
+     * return \Spatie\SchemaOrg\Resort
+     */
+    public static function resort()
     {
         return new Resort();
     }
 
-    public static function accommodation(): Accommodation
+    /**
+     * Create Accommodation.
+     *
+     * return \Spatie\SchemaOrg\Accommodation
+     */
+    public static function accommodation()
     {
         return new Accommodation();
     }
 
-    public static function room(): Room
+    /**
+     * Create Room.
+     *
+     * return \Spatie\SchemaOrg\Room
+     */
+    public static function room()
     {
         return new Room();
     }
 
-    public static function hotelRoom(): HotelRoom
+    /**
+     * Create HotelRoom.
+     *
+     * return \Spatie\SchemaOrg\HotelRoom
+     */
+    public static function hotelRoom()
     {
         return new HotelRoom();
     }
 
-    public static function meetingRoom(): MeetingRoom
+    /**
+     * Create MeetingRoom.
+     *
+     * return \Spatie\SchemaOrg\MeetingRoom
+     */
+    public static function meetingRoom()
     {
         return new MeetingRoom();
     }
 
-    public static function campingPitch(): CampingPitch
+    /**
+     * Create CampingPitch.
+     *
+     * return \Spatie\SchemaOrg\CampingPitch
+     */
+    public static function campingPitch()
     {
         return new CampingPitch();
     }
 
-    public static function suite(): Suite
+    /**
+     * Create Suite.
+     *
+     * return \Spatie\SchemaOrg\Suite
+     */
+    public static function suite()
     {
         return new Suite();
     }
 
-    public static function house(): House
+    /**
+     * Create House.
+     *
+     * return \Spatie\SchemaOrg\House
+     */
+    public static function house()
     {
         return new House();
     }
 
-    public static function apartment(): Apartment
+    /**
+     * Create Apartment.
+     *
+     * return \Spatie\SchemaOrg\Apartment
+     */
+    public static function apartment()
     {
         return new Apartment();
     }
 
-    public static function foodService(): FoodService
+    /**
+     * Create FoodService.
+     *
+     * return \Spatie\SchemaOrg\FoodService
+     */
+    public static function foodService()
     {
         return new FoodService();
     }
 
-    public static function locationFeatureSpecification(): LocationFeatureSpecification
+    /**
+     * Create LocationFeatureSpecification.
+     *
+     * return \Spatie\SchemaOrg\LocationFeatureSpecification
+     */
+    public static function locationFeatureSpecification()
     {
         return new LocationFeatureSpecification();
     }
 
-    public static function bedDetails(): BedDetails
+    /**
+     * Create BedDetails.
+     *
+     * return \Spatie\SchemaOrg\BedDetails
+     */
+    public static function bedDetails()
     {
         return new BedDetails();
     }
 
-    public static function course(): Course
+    /**
+     * Create Course.
+     *
+     * return \Spatie\SchemaOrg\Course
+     */
+    public static function course()
     {
         return new Course();
     }
 
-    public static function courseInstance(): CourseInstance
+    /**
+     * Create CourseInstance.
+     *
+     * return \Spatie\SchemaOrg\CourseInstance
+     */
+    public static function courseInstance()
     {
         return new CourseInstance();
     }
 
-    public static function claimReview(): ClaimReview
+    /**
+     * Create ClaimReview.
+     *
+     * return \Spatie\SchemaOrg\ClaimReview
+     */
+    public static function claimReview()
     {
         return new ClaimReview();
     }
 
-    public static function menu(): Menu
+    /**
+     * Create Menu.
+     *
+     * return \Spatie\SchemaOrg\Menu
+     */
+    public static function menu()
     {
         return new Menu();
     }
 
-    public static function menuItem(): MenuItem
+    /**
+     * Create MenuItem.
+     *
+     * return \Spatie\SchemaOrg\MenuItem
+     */
+    public static function menuItem()
     {
         return new MenuItem();
     }
 
-    public static function menuSection(): MenuSection
+    /**
+     * Create MenuSection.
+     *
+     * return \Spatie\SchemaOrg\MenuSection
+     */
+    public static function menuSection()
     {
         return new MenuSection();
     }
